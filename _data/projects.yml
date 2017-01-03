@@ -9,3 +9,7 @@
 - title: rpmfarm
   description: Окружение для сборки RPM-пакетов для RHEL/CentOS.
   link: https://github.com/simtechdev/smtk-rpmfarm
+
+- title: fex
+  description: Хранилище учебных работ студентов ФИСТ УлГТУ
+  link: https://fex.gongled.me
