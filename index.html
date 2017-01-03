@@ -71,3 +71,18 @@ title: Home
   </ul>
 </section>
 {% endif %}
+
+<section class="mb4">
+  <h2 class="mb2 h2">Контакты ¬</h2>
+
+  <ul class="mt0 mxn1 list-reset flex flex-wrap">
+    <li class="col sm-col-6 mb1 px1">
+      Телефон:
+      <h3 class="mb1 h4 regular"><a href="tel:{{ site.contacts.phone }}">{{ site.contacts.phone }}</a></h3>
+    </li>
+    <li class="col sm-col-6 mb1 px1">
+      Эл. почта:
+      <h3 class="mb1 h4 regular"><a href="mailto:{{ site.email }}?subject=Обратная связь с {{ site.url }}&body=Привет, Глеб.">{{ site.email }}</a></h3>
+    </li>
+  </ul>
+</section>
