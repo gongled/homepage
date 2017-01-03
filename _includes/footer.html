@@ -1,0 +1,8 @@
+<footer>
+  <ul class="list-reset">
+    {% if site.email %}<li class="inline-block mr1"><a href="mailto:{{ site.email }}">Почта</a></li>{% endif %}
+    {% if site.contacts.github %}<li class="inline-block mr1"><a href="https://github.com/{{ site.contacts.github }}">Гитхаб</a></li>{% endif %}
+    {% if site.contacts.twitter %}<li class="inline-block mr1"><a href="https://twitter.com/{{ site.contacts.twitter }}">Твиттер</a></li>{% endif %}
+    {% if site.contacts.instagram %}<li class="inline-block mr1"><a href="https://instagram.com/{{ site.contacts.instagram }}">Инстаграм</a></li>{% endif %}
+  </ul>
+</footer>

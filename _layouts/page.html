@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<article class="mb4">
+  <header class="mb2">
+    <h2 class="mb0">{{ page.title }} ¬</h2>
+    {% if page.updated %}
+    <time class="italic">Обновлено: {{ page.updated | localize: "%-d %B %Y года" }}</time>
+    {% endif %}
+  </header>
+  {{ content }}
+</article>

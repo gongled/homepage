@@ -1,0 +1,46 @@
+title: Глеб Гончаров
+email: inbox@gongled.ru
+baseurl: ""
+url: "https://gongled.ru"
+lang: ru
+
+# Build settings
+markdown: kramdown
+
+# Gems
+gems:
+  - jekyll-gist
+  - jemoji
+
+# Sass settings
+sass:
+    style: :compressed
+
+analytics:
+  google:
+    tracking_code: UA-36910558-1
+  yandex:
+    tracking_code: 24643331
+
+contacts:
+  github: gongled
+  twitter: gongled
+  instagram: gongled
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: :path
+
+# Defaults
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
+      permalink: /:year/:month/:day/:title.html
+  - scope:
+      type: pages
+    values:
+      layout: page

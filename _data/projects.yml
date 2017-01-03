@@ -1,0 +1,11 @@
+- title: pycscart
+  description: Библиотека для работы с API интернет-магазинов на базе CS-Cart.
+  link: https://github.com/gongled/pycscart
+
+- title: saltfarm
+  description: Окружение для разработки и тестирования формул SaltStack.
+  link: https://github.com/gongled/saltfarm
+
+- title: rpmfarm
+  description: Окружение для сборки RPM-пакетов для RHEL/CentOS.
+  link: https://github.com/simtechdev/smtk-rpmfarm
