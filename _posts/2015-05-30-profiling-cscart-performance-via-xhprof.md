@@ -42,7 +42,7 @@ if (isset($_GET['debugging'])) {
     include_once DIR_ROOT . "/xhprof/xhprof_lib/utils/xhprof_lib.php";
     include_once DIR_ROOT . "/xhprof/xhprof_lib/utils/xhprof_runs.php";
 
-    $xhprof_runs = new XHProfRuns_Default();
+    $xhprof_runs = new \XHProfRuns_Default();
     $run_id = $xhprof_runs->save_run($xhprof_data, "xhprof_foo");
 
     echo "<!--\n" . "/xhprof/xhprof_html/index.php?run=$run_id&source=xhprof_foo\n" . "--!>\n";
