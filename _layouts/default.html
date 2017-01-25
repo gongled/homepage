@@ -11,7 +11,8 @@
   {% endif %}
   {% if page.image %}
     <meta content="/asserts/img/{{ page.image }}" property="og:image">
-  {% else %}
+  {% endif %}
+  {% if page.title == "" %}
     <meta content="/assets/img/userpic.jpg" property="og:image">
   {% endif %}
   {% if page.title %}
