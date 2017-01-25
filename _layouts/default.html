@@ -44,7 +44,11 @@
     <meta content="{{ tag }}" property="article:tag">
     {% endfor %}
   {% endif %}
+  {% if page.title %}
+  <title>{{ site.title }} | {{ page.title }}</title>
+  {% else %}
   <title>{{ site.title }}</title>
+  {% endif %}
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/assets/css/highlights.css" | prepend: site.baseurl }}">
   <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
