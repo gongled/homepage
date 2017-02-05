@@ -11,5 +11,13 @@
   link: https://github.com/simtechdev/smtk-rpmfarm
 
 - title: fex
-  description: Хранилище учебных работ студентов ФИСТ УлГТУ
+  description: Хранилище учебных работ студентов ФИСТ УлГТУ.
   link: https://fex.gongled.me
+
+- title: cartomatic
+  description: Сценарии настройки серверов для CS-Cart.
+  link: https://github.com/gongled/cartomatic
+
+- title: latex-cv
+  description: Шаблон резюме на русском языке с разметкой LaTeX.
+  link: https://github.com/gongled/latex-cv
