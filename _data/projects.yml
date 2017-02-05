@@ -1,7 +1,3 @@
-- title: pycscart
-  description: Библиотека для работы с API интернет-магазинов на базе CS-Cart.
-  link: https://github.com/gongled/pycscart
-
 - title: saltfarm
   description: Окружение для разработки и тестирования формул SaltStack.
   link: https://github.com/gongled/saltfarm
@@ -10,14 +6,18 @@
   description: Окружение для сборки RPM-пакетов для RHEL/CentOS.
   link: https://github.com/simtechdev/smtk-rpmfarm
 
+- title: latex-cv
+  description: Шаблон резюме на русском языке с разметкой LaTeX.
+  link: https://github.com/gongled/latex-cv
+
 - title: fex
   description: Хранилище учебных работ студентов ФИСТ УлГТУ.
   link: https://fex.gongled.me
 
 - title: cartomatic
-  description: Сценарии настройки серверов для CS-Cart.
+  description: Сценарии настройки серверов для проектов на CS-Cart и Multi-Vendor.
   link: https://github.com/gongled/cartomatic
 
-- title: latex-cv
-  description: Шаблон резюме на русском языке с разметкой LaTeX.
-  link: https://github.com/gongled/latex-cv
+- title: pycscart
+  description: Библиотека для работы с API интернет-магазинов на базе CS-Cart.
+  link: https://github.com/gongled/pycscart
