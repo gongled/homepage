@@ -3,12 +3,9 @@ title: Настройка RAID-контроллера SmartArray B120i в CentOS
 updated: 2017-01-28
 ---
 
-Небольшая инструкция об установке CentOS 7 на HPE ProLiant Microserver Gen8 с
-поддержкой аппаратного RAID-контроллера SmartArray B120i:
+Небольшая инструкция об установке CentOS 7 на HPE ProLiant Microserver Gen8 с аппаратным RAID-контроллером HP Dynamic Smart Array B120i:
 
-Загрузите образ дискеты для RAID-контроллера HP Dynamic Smart Array B120i
-с [официального сайта Hewlett Packard](http://h20564.www2.hpe.com/hpsc/swd/public/detail?swItemId=MTX_7db7797756df4cd9825a5567e8).
-
+Загрузите образ дискеты для RAID-контроллера с [официального сайта Hewlett Packard](http://h20564.www2.hpe.com/hpsc/swd/public/detail?swItemId=MTX_7db7797756df4cd9825a5567e8).
 Запишите образ на USB-диск с помощью утилиты `dd`. Не забудьте заменить путь до
 блочного устройства `/dev/sdd` и отмонтировать устройство перед запуском:
 
@@ -23,4 +20,4 @@ linux dd blacklist=ahci
 ```
 
 Готово. Во время загрузки ядра будет предложено выбрать источник для драйвера.
-Выберите USB-диск и продолжите на логический диск.
+Выберите USB-диск и продолжите установку на логический диск.
