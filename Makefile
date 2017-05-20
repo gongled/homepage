@@ -11,7 +11,7 @@ build: clean
 	bundle exec jekyll build
 
 play:
-	bundle exec jekyll serve --drafts --watch
+	bundle exec jekyll serve --watch
 
 install: build
 	rm -f _site/Gemfile

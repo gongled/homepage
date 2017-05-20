@@ -17,9 +17,10 @@ title: Домашняя страничка
 <section class="mb4">
   <h2 class="mb2 h2">Блог ¬</h2>
   <ul class="mt0 list-reset">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:site.paginate %}
     <li class="mb1"><a href="{{ post.url }}">{{ post.title }}</a> <time class="italic">от {{ post.date | localize: "%-d %B %Y года" }}</time></li>
   {% endfor %}
+    <li class="mb1"><a href="/blog/">...</a></li>
   </ul>
 </section>
 {% endif %}

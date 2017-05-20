@@ -1,0 +1,32 @@
+---
+layout: default
+title: Блог
+---
+
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+<article class="mb4">
+  <!-- <h2 class="mb5"><a href="{{ post.url }}">{{ post.title }}</a></h2> -->
+  <header>
+    <h2 class="mb0"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <time class="italic">{{ post.date | localize: "%-d %B %Y года" }}</time>
+  </header>
+  <p></p>
+  {{ post.content }}
+</article>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<article class="mb4">
+  Страницы:
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      {{ page }}
+    {% elsif page == 1 %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+</article>
+{% endif %}

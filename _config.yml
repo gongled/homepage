@@ -11,6 +11,7 @@ markdown: kramdown
 # Gems
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
   - jekyll-gist
   - jemoji
 
@@ -30,6 +31,9 @@ contacts:
   twitter: gongled
   instagram: gongled
 
+paginate: 5
+paginate_path: "/blog/page:num/"
+
 # Collections
 collections:
   pages:
@@ -42,7 +46,7 @@ defaults:
       type: posts
     values:
       layout: post
-      permalink: /:year/:month/:day/:title.html
+      permalink: /blog/:year/:month/:day/:title.html
   - scope:
       type: pages
     values:
