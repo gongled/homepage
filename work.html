@@ -1,0 +1,57 @@
+---
+layout: default
+title: Работаю
+---
+
+{% if site.data.experience.size > 0 %}
+<section class="mb4">
+  <h2 class="mb2 h2">Опыт ¬</h2>
+
+  <ul class="mt0 list-reset">
+  {% for job in site.data.experience %}
+    <li class="mb3">
+      <header class="mb1">
+        <h3 class="mb0 h4 regular"><span class="bold">{{ job.company }}</span> <span class="italic">{{ job.timeline }}</span></h3>
+        <span>{{ job.title }}</span>
+      </header>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if site.data.technologies %}
+<section class="mb4">
+  <h2 class="mb2 h2">Технологии ¬</h2>
+
+  <ul class="mt0 mxn1 list-reset flex flex-wrap">
+  {% for tech in site.data.technologies %}
+    <li class="col sm-col-6 mb1 px1">
+      <h3 class="mb1 h4 regular"><span class="bold">{{ tech.title }}</span></h3>
+      {{ tech.tags | sort | join: ", " | markdownify }}
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if site.data.projects %}
+<section class="mb4">
+  <h2 class="mb2 h2">Проекты ¬</h2>
+
+  <ul class="mt0 mxn1 list-reset flex flex-wrap">
+  {% for project in site.data.projects %}
+    <li class="col sm-col-6 mb1 px1">
+      <h3 class="mb1 h4 regular"><a href="{{ project.link }}">{{ project.title }}</a></h3>
+      {{ project.description | markdownify }}
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<footer>
+  <ul class="list-reset">
+    <li class="inline-block mr1">Напишите мне <a href="mailto:{{ site.email }}?subject=Сотрудничество&body=Привет, Глеб.">письмо</a> для сотрудничества.</li>
+  </ul>
+</footer>
