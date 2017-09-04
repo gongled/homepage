@@ -6,6 +6,7 @@
 
 - title: Базы данных и брокеры
   tags:
+    - OpenLDAP
     - MySQL
     - PostgreSQL
     - Redis
@@ -14,64 +15,75 @@
     - Kafka
     - Zookeeper
 
-- title: Виртуализация и контейнеризация
+- title: Системы кластеризации
   tags:
-    - VMWare ESXi
-    - VirtualBox
-    - Qemu/KVM
+    - Ganeti
+    - Apache Mesos
+    - Marathon
+    - Kubernetes
+    - Docker Swarm
+
+- title: Гипервизоры и контейнеры
+  tags:
     - Xen
     - OpenVZ
+    - Qemu/KVM
+    - VirtualBox
+    - VMWare ESXi
     - Docker
-    - Vagrant
-    - Packer
 
-- title: Сбор данных и визуализация
+- title: Инструменты разработки
   tags:
-    - Zabbix
-    - Grafana
-    - Kibana
-    - Logstash
-    - Filebeat
-    - Flume
-
-- title: Разработка и тестирование
-  tags:
-    - PHP
-    - Python
-    - Golang
-    - LaTeX
-    - Shell
-    - Makefile
     - Git
-    - Tsung
-    - jMeter
     - Jenkins
-    - Yandex Tank
-    - Capistrano
-
-- title: Инфраструктура
-  tags:
-    - Samba
-    - Bacula
-    - BIND
-    - EJabberd
-    - DHCP
-    - OpenLDAP
-    - Postfix
-    - Dovecot
-    - Amavis
-    - OpenDKIM
-    - IPSec
-    - RPM
-
-- title: Облачные вычисления
-  tags:
-    - Amazon AWS
-    - Google Cloud
+    - Packer
+    - Vagrant
+    - Docker Compose
     - Terraform
     - Otto
+    - RPM
+    - Make
 
-- title: Управление конфигурациями
+- title: Инструменты тестирования и отладки
+  tags:
+    - XDebug
+    - XHProf
+    - Yandex Tank
+    - jMeter
+
+- title: Системы управления конфигурациями
   tags:
     - Ansible
     - SaltStack
+
+- title: Системы доставки ПО
+  tags:
+    - Capistrano
+    - Deployer
+
+- title: Облачные провайдеры
+  tags:
+    - Amazon AWS
+    - Digital Ocean
+    - Google Cloud Engine
+
+- title: Сборщики метрик и логов
+  tags:
+    - Filebeat
+    - Flume
+    - Logstash
+    - Collectd
+
+- title: Системы визуализации и мониторинга
+  tags:
+    - Kibana
+    - Grafana
+    - Zabbix
+    - Netdata
+
+- title: Языки программирования
+  tags:
+    - PHP
+    - Python
+    - Go
+    - Shell

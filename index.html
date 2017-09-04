@@ -3,86 +3,14 @@ layout: default
 title: Домашняя страничка
 ---
 <section class="mb4">
-  <h2 class="mb1 h2">Обо мне ¬</h2>
+  <p class="h3">Устанавливаю и сопровождаю серверы для коммерческих проектов мобильных операторов России и стран СНГ.</p>
 
-  <p class="h3">Устанавливаю и
-    сопровождаю серверы для проектов операторов мобильной связи,
-    помогаю веб-студиям с запуском высоконагруженных интернет-магазинов.</p>
-
-  <p class="h3">Работаю с Linux/UNIX и свободным ПО: автоматизирую инфраструктуру,
+  <p class="h3">Работаю со свободным ПО: автоматизирую инфраструктуру,
     участвую в разработке, забочусь о скорости и безопасности сервисов.</p>
+
+    <p class="h3">Много работаю, развиваю <a href="https://github.com/{{ site.contacts.github }}" target="_blank">опенсорс</a>, веду <a href="/blog/">блог</a> и иногда <a href="https://instagram.com/{{ site.contacts.instagram }}" target="_blank">фотографирую</a>.</p>
 </section>
 
-{% if site.posts.size > 0 %}
 <section class="mb4">
-  <h2 class="mb2 h2">Блог ¬</h2>
-  <ul class="mt0 list-reset">
-  {% for post in site.posts limit:site.paginate %}
-    <li class="mb1"><a href="{{ post.url }}">{{ post.title }}</a> <time class="italic">от {{ post.date | localize: "%-d %B %Y года" }}</time></li>
-  {% endfor %}
-    <li class="mb1"><a href="/blog/">...</a></li>
-  </ul>
-</section>
-{% endif %}
-
-{% if site.data.projects %}
-<section class="mb4">
-  <h2 class="mb2 h2">Проекты ¬</h2>
-
-  <ul class="mt0 mxn1 list-reset flex flex-wrap">
-  {% for project in site.data.projects %}
-    <li class="col sm-col-6 mb1 px1">
-      <h3 class="mb1 h4 regular"><a href="{{ project.link }}">{{ project.title }}</a></h3>
-      {{ project.description | markdownify }}
-    </li>
-  {% endfor %}
-  </ul>
-</section>
-{% endif %}
-
-{% if site.data.technologies %}
-<section class="mb4">
-  <h2 class="mb2 h2">Технологии ¬</h2>
-
-  <ul class="mt0 mxn1 list-reset flex flex-wrap">
-  {% for tech in site.data.technologies %}
-    <li class="col sm-col-6 mb1 px1">
-      <h3 class="mb1 h4 regular"><span class="bold">{{ tech.title }}</span></h3>
-      {{ tech.tags | sort | join: ", " | markdownify }}
-    </li>
-  {% endfor %}
-  </ul>
-</section>
-{% endif %}
-
-{% if site.data.experience.size > 0 %}
-<section class="mb4">
-  <h2 class="mb2 h2">Работа ¬</h2>
-
-  <ul class="mt0 list-reset">
-  {% for job in site.data.experience %}
-    <li class="mb3">
-      <header class="mb1">
-        <h3 class="mb0 h4 regular"><span class="bold">{{ job.company }}</span> <span class="italic">{{ job.timeline }}</span></h3>
-        <span>{{ job.title }}</span>
-      </header>
-    </li>
-  {% endfor %}
-  </ul>
-</section>
-{% endif %}
-
-<section class="mb4">
-  <h2 class="mb2 h2">Контакты ¬</h2>
-
-  <ul class="mt0 mxn1 list-reset flex flex-wrap">
-    <li class="col sm-col-6 mb1 px1">
-      Телефон:
-      <h3 class="mb1 h4 regular"><a href="tel:{{ site.contacts.phone }}">{{ site.contacts.phone }}</a></h3>
-    </li>
-    <li class="col sm-col-6 mb1 px1">
-      Эл. почта:
-      <h3 class="mb1 h4 regular"><a href="mailto:{{ site.email }}?subject=Обратная связь с {{ site.url }}&body=Привет, Глеб.">{{ site.email }}</a></h3>
-    </li>
-  </ul>
+  <p class="h3">Чтобы связаться со мной, напишите мне <a href="mailto:{{ site.email }}?body=Привет, Глеб.">письмо</a>.</p>
 </section>

@@ -1,15 +1,1 @@
-- title: vgrepo
-  description: Менеджер репозиториев Vagrant.
-  link: https://github.com/gongled/vgrepo
 
-- title: cartomatic
-  description: Плейбук по установке окружения для CS-Cart.
-  link: https://github.com/gongled/cartomatic
-
-- title: saltfarm
-  description: Окружение для тестирования формул SaltStack.
-  link: https://github.com/gongled/saltfarm
-
-- title: latex-cv
-  description: Шаблон резюме на LaTeX.
-  link: https://github.com/gongled/latex-cv
