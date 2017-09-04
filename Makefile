@@ -10,6 +10,9 @@ all: clean build
 build: clean
 	bundle exec jekyll build
 
+demo:
+	bundle exec jekyll serve --drafts --watch
+
 play:
 	bundle exec jekyll serve --watch
 
