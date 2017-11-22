@@ -1,3 +1,5 @@
+<p align="center"><a href="#quick-start">Quick start</a> • <a href="#usage">Usage</a> • <a href="#installation">Installation</a> • <a href="#travis-ci-status">Travis CI status</a> • <a href="#license">License</a></p>
+
 # About
 
 Homepage with pretty minimal design which based on [Jekyll](http://jekyllrb.com).
@@ -30,6 +32,13 @@ Run this command to deploy website on your VPS:
 ```
 make install DESTDIR=example.com:/var/www/html
 ```
+
+## Travis CI status
+
+| Branch | Status |
+|------------|--------|
+| `master` | [![Build Status](https://travis-ci.org/gongled/homepage.svg?branch=master)](https://travis-ci.org/gongled/homepage) |
+| `develop` | [![Build Status](https://travis-ci.org/gongled/homepage.svg?branch=develop)](https://travis-ci.org/gongled/homepage) |
 
 ## License
 
