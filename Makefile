@@ -11,7 +11,7 @@ build: clean
 	bundle exec jekyll build
 
 check:
-	bundle exec htmlproofer _site/
+	bundle exec htmlproofer --disable-external _site/
 
 play:
 	bundle exec jekyll serve --watch
