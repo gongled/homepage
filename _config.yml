@@ -51,3 +51,5 @@ defaults:
       type: pages
     values:
       layout: page
+
+exclude: [vendor]
