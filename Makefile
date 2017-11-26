@@ -14,7 +14,7 @@ check:
 	bundle exec htmlproofer --disable-external _site/
 
 play:
-	bundle exec jekyll serve --watch
+	bundle exec jekyll serve --drafts --watch
 
 install: build check
 	rm -f _site/Gemfile
