@@ -1,6 +1,8 @@
 ########################################################################################
 
 DESTDIR = _site
+ENV = production
+TRANSPORT = ssh
 .PHONY = all clean build check install
 
 ########################################################################################
@@ -16,10 +18,8 @@ check:
 play:
 	bundle exec jekyll serve --drafts --watch
 
-install: build check
-	rm -f _site/Gemfile
-	rm -f _site/Gemfile.lock
-	rsync -aPvz --delete _site/ "$(DESTDIR)"
+deploy: build check
+	ansible-playbook deploy.yml -i environments/$(ENV) --extra-vars="env=$(ENV)" -c $(TRANSPORT) 
 
 deps:
 	gem install bundler
