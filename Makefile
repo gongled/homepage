@@ -13,7 +13,7 @@ build: clean
 	bundle exec jekyll build
 
 release:
-	docker-compose run app
+	docker-compose run --rm -u $(shell id -u) app
 
 update:
 	docker-compose build
