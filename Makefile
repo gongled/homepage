@@ -3,14 +3,20 @@
 DESTDIR = _site
 ENV = production
 TRANSPORT = ssh
-.PHONY = all clean build check install
+.PHONY = all clean release update build check deploy deps
 
 ########################################################################################
 
-all: clean build
+all: build
 
 build: clean
 	bundle exec jekyll build
+
+release:
+	docker-compose run app
+
+update:
+	docker-compose build
 
 check:
 	bundle exec htmlproofer --disable-external _site/
@@ -18,7 +24,7 @@ check:
 play:
 	bundle exec jekyll serve --drafts --watch
 
-deploy: build check
+deploy:
 	ansible-playbook deploy.yml -i environments/$(ENV) --extra-vars="env=$(ENV)" -c $(TRANSPORT) 
 
 deps:
@@ -26,4 +32,4 @@ deps:
 	bundle install
 
 clean:
-	rm -rf _site/
+	rm -rf _site/ deploy.retry
