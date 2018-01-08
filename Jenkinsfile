@@ -4,24 +4,32 @@ pipeline {
     agent any
 
     try {
-        stage('Checkout') {
-            checkout scm
-        }
-
-        stage('Build') {
-            sh 'make release'
-        }
-
-        stage('Test') {
-            sh 'echo OK'
-        }
-
-        stage('Deploy') {
-            when {
-                branch 'production'
+        stages {
+            stage('Checkout') {
+                steps {
+                    checkout scm
+                }
             }
-            steps {
-                sh 'make TRANSPORT=local deploy'
+
+            stage('Build') {
+                steps {
+                    sh 'make release'
+                }
+            }
+
+            stage('Test') {
+                steps {
+                    sh 'echo OK'
+                }
+            }
+
+            stage('Deploy') {
+                when {
+                    branch 'production'
+                }
+                steps {
+                    sh 'make TRANSPORT=local deploy'
+                }
             }
         }
     }
