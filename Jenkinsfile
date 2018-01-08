@@ -1,25 +1,29 @@
 #!groovy
 
-node('packer') {
-
-    currentBuild.result = "SUCCESS"
+pipeline {
+    agent any
 
     try {
-       stage('Checkout'){
-          checkout scm
-       }
+        stage('Checkout') {
+            checkout scm
+        }
 
-       stage('Build'){
-         sh 'make release'
-       }
+        stage('Build') {
+            sh 'make release'
+        }
 
-       stage('Test'){
-         sh 'echo OK'
-       }
+        stage('Test') {
+            sh 'echo OK'
+        }
 
-       stage('Deploy'){
-         sh 'make TRANSPORT=local deploy'
-       }
+        stage('Deploy') {
+            when {
+                branch 'production'
+            }
+            steps {
+                sh 'make TRANSPORT=local deploy'
+            }
+        }
     }
     catch (err) {
         throw err
