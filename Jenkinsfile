@@ -24,7 +24,7 @@ pipeline {
 
         stage('Deploy') {
             when {
-                branch 'production'
+                branch 'master'
             }
             steps {
                 sh 'make TRANSPORT=local deploy'
