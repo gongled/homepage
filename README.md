@@ -6,9 +6,9 @@ Homepage with pretty minimal design which based on [Jekyll](http://jekyllrb.com)
 
 ## Requirements
 
-- Ansible
-- Docker
-- Docker Compose
+- [Ansible](https://ansible.com)
+- [Docker](https://docker.com)
+- [Docker Compose](https://docs.docker.com/compose/)
 
 ## Quick start
 
