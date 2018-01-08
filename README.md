@@ -4,6 +4,12 @@
 
 Homepage with pretty minimal design which based on [Jekyll](http://jekyllrb.com).
 
+## Requirements
+
+- Ansible
+- Docker
+- Docker Compose
+
 ## Quick start
 
 If you're new to Jekyll, please read the [documentation](http://jekyllrb.com).
@@ -11,8 +17,7 @@ If you're new to Jekyll, please read the [documentation](http://jekyllrb.com).
 ```
 $ git clone https://github.com/gongled/homepage.git
 $ cd homepage
-$ [sudo] make deps
-$ make
+$ make release
 ```
 
 ## Usage
@@ -20,17 +25,18 @@ $ make
 Start the Jekyll Server to run the website.
 
 ```
-$ make play
+$ make release
+$ open _site/index.html
 ```
 
 You can navigate to `localhost:4000` in your browser to see the site.
 
-## Installation
+## Deployment
 
 Run this command to deploy website on your VPS:
 
 ```
-make install DESTDIR=example.com:/var/www/html
+make ENV=production deploy
 ```
 
 ## Travis CI status

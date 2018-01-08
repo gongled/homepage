@@ -14,6 +14,10 @@ ADD Makefile /app/
 
 WORKDIR /app
 
+EXPOSE 4000
+
 RUN make deps
+
+VOLUME ["/app"]
 
 ###############################################################################

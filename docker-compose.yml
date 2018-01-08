@@ -3,7 +3,11 @@ services:
   app:
     build:
       context: .
-    command: make build
+    command: make play
+    expose:
+      - 4000
+    ports:
+      - 4000:4000
     volumes:
       - .:/app
     environment:
