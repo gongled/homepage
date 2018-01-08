@@ -3,37 +3,32 @@
 pipeline {
     agent any
 
-    try {
-        stages {
-            stage('Checkout') {
-                steps {
-                    checkout scm
-                }
-            }
-
-            stage('Build') {
-                steps {
-                    sh 'make release'
-                }
-            }
-
-            stage('Test') {
-                steps {
-                    sh 'echo OK'
-                }
-            }
-
-            stage('Deploy') {
-                when {
-                    branch 'production'
-                }
-                steps {
-                    sh 'make TRANSPORT=local deploy'
-                }
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
             }
         }
-    }
-    catch (err) {
-        throw err
+
+        stage('Build') {
+            steps {
+                sh 'make release'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                sh 'echo OK'
+            }
+        }
+
+        stage('Deploy') {
+            when {
+                branch 'production'
+            }
+            steps {
+                sh 'make TRANSPORT=local deploy'
+            }
+        }
     }
 }
