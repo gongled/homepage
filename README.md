@@ -1,4 +1,4 @@
-<p align="center"><a href="#quick-start">Quick start</a> • <a href="#usage">Usage</a> • <a href="#installation">Installation</a> • <a href="#travis-ci-status">Travis CI status</a> • <a href="#license">License</a></p>
+<p align="center"><a href="#requirements">Requirements</a> • <a href="#quick-start">Quick start</a> • <a href="#playground">Playground</a> • <a href="#deployment">Deployment</a> • <a href="#travis-ci-status">Travis CI status</a> • <a href="#license">License</a></p>
 
 # About
 
@@ -16,20 +16,19 @@ If you're new to Jekyll, please read the [documentation](http://jekyllrb.com).
 
 ```
 $ git clone https://github.com/gongled/homepage.git
-$ cd homepage
+$ cd homepage/
 $ make release
 ```
 
-## Usage
+## Playground
 
 Start the Jekyll Server to run the website.
 
 ```
-$ make release
-$ open _site/index.html
+$ docker-compose up
 ```
 
-You can navigate to `localhost:4000` in your browser to see the site.
+You can navigate to `0.0.0.0:4000` in your browser to see the site.
 
 ## Deployment
 
