@@ -4,4 +4,4 @@ deployment:
     user: deploy
 
 app:
-    path: /srv/projects/gongled.ru
+    path: /srv/projects/homepage/current

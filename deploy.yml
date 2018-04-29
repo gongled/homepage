@@ -7,12 +7,11 @@
   tasks:
     - name: deploy application to working directory
       become: yes
-      become_user: deploy
+      become_user: "{{ act_as|default('deploy') }}"
       synchronize:
         src: "_site/"
-        dest: "{{ app.path }}"
+        dest: "{{ app.path }}/"
         archive: yes
         delete: yes
         recursive: yes
-        rsync_path: "sudo -u deploy rsync"
-
+        rsync_path: "sudo -u {{ act_as|default('deploy') }} rsync"

@@ -1,0 +1,36 @@
+@import "settings";
+
+.short-quote {
+  width: @width * 3/4;
+  font-weight: bold;
+  border: 6px solid red;
+  padding: 1em;
+  margin: 1em 0 2em 0;
+  text-align: center;
+  p {
+    margin: 0;
+  }
+}
+
+body#tinymce.wp-editor {
+  font-family: "PT Serif", "Arial", sans-serif;
+  margin: 10px;
+  p {
+    width: @width * 3/4;
+  }
+}
+
+
+body#tinymce.wp-editor a {
+  color: @gamma;
+  .transform();
+  &:hover {
+    color: @delta;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  blockquote, .short-quote, .medium-quote, .long-quote {
+    width: @mobile * 3/4
+  }
+}

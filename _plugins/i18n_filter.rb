@@ -1,9 +1,10 @@
 require 'i18n'
 
-LOCALE = Jekyll.configuration({})['lang'] # set your locale from config var
-
 # Create folder "_locales" and put some locale file from https://github.com/svenfuchs/rails-i18n/tree/master/rails/locale
 module Jekyll
+
+  LOCALE = Jekyll.configuration({})['lang'] # set your locale from config var
+
   module I18nFilter
     # Example:
     #   {{ post.date | localize: "%d.%m.%Y" }}

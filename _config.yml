@@ -1,5 +1,6 @@
-title: Глеб Гончаров
-description: Сайт Глеба Гончарова
+whoami: Глеб Гончаров
+title: Сайт Глеба Гончарова
+description: Системный администратор в ФанБоксе. Автоматизирую и сопровождаю инфраструктуру для проектов мобильных операторов.
 email: inbox@gongled.ru
 baseurl: ""
 url: "https://gongled.ru"
@@ -26,10 +27,14 @@ analytics:
     tracking_code: 24643331
 
 contacts:
-  phone: +7 927 826-83-23
+  googleplus: GlebGoncharov
   github: gongled
   twitter: gongled
   instagram: gongled
+  facebook: gongled
+  vk: gongled
+  linkedin: gongled
+  telegram: gongled
 
 paginate: 5
 paginate_path: "/blog/page:num/"

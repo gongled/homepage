@@ -1,5 +1,4 @@
 {% if site.analytics.google.tracking_code %}
-<!-- Google Analytics counter -->
 <script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -9,9 +8,7 @@
   ga('create', '{{ site.analytics.google.tracking_code }}', 'auto');
   ga('send', 'pageview');
 </script>
-<!-- /Google Analytics counter -->
 {% endif %}
-<!-- Yandex.Metrika counter -->
 {% if site.analytics.yandex.tracking_code %}
 <script type="text/javascript">
     (function (d, w, c) {
@@ -40,5 +37,4 @@
     })(document, window, "yandex_metrika_callbacks");
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/{{ site.analytics.yandex.tracking_code }}" style="position:absolute; left:-9999px;" alt="YandexMetrica" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
 {% endif %}

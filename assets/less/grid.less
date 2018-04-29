@@ -1,0 +1,58 @@
+.box-sizing (@type: border-box) {
+  -webkit-box-sizing: @type;
+  -moz-box-sizing: @type;
+  box-sizing: @type;
+}
+
+.cell-a-b(@a, @b) {
+  width: 100% * @a / @b;
+}
+
+.container {
+  position: relative;
+  width: @width;
+  margin: 0 auto;
+  .box-sizing();
+  div[class^='cell-'] {
+    float: left;
+  }
+
+  .module {
+    margin: auto @margin / 2;
+    &.alpha {
+      margin-left: 0;
+    }
+
+    &.beta {
+      margin-right: 0;
+    }
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+.cell-1-1 {.cell-a-b(1, 1)}
+.cell-1-2 {.cell-a-b(1, 2)}
+.cell-1-3 {.cell-a-b(1, 3)}
+.cell-1-4 {.cell-a-b(1, 4)}
+.cell-2-3 {.cell-a-b(2, 3)}
+.cell-3-4 {.cell-a-b(3, 4)}
+
+@media screen and (max-width: 960px) {
+  .container{
+    width: @mobile;
+    padding: 2% 6% !important;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .container{
+    div[class^='cell-'] {
+      width: @mobile;
+      float: none;
+    }
+  }
+}

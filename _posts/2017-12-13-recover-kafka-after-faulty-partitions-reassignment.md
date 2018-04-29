@@ -80,10 +80,11 @@ Reassignment of partition [events,1] completed successfully
 
 После выполнения задачи удаляем временный брокер из кластера:
 
+> Остановить Kafka можно сигналом `SIGTERM` рабочему процессу
+{:.aside-text-right}
+
 ```
 $ [sudo] service kafka stop
-# ... or just send SIGTERM signal to Kafka process
-
 $ [sudo] yum -y remove kafka
 ```
 

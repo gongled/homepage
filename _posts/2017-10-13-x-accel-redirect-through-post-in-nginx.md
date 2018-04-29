@@ -31,7 +31,6 @@ server {
     proxy_pass http://provider.example.tld/content/;
   }
 }
-
 ```
 
 Или форсировать метод POST с помощью директивы [`proxy_method`](https://nginx.ru/en/docs/http/ngx_http_proxy_module.html#proxy_method). В этом случае придётся описать два локейшена, чтобы не передавать через POST запросы для GET.

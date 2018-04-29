@@ -1,20 +1,12 @@
 ---
 layout: default
 ---
-<article class="mb4">
-  <header class="mb2">
-    <h2 class="mb0">{{ page.title }}</h2>
-    <time class="italic">{{ page.date | localize: "%-d %B %Y года" }}</time>
-  </header>
-  {{ content }}
+
+<article class="content post type-post status-publish format-standard hentry">
+  <div class="container">
+    <time class="date" datetime="{{ page.date }}">{{ page.date | localize: "%-d %B %Y года" }}</time>
+      <h2 class="post-title"><a href="{{ page.url }}" rel="bookmark">{{ page.title }}</a></h2>
+      {{ content }}
+  </div>
 </article>
-
-<footer class="mb4">
-  <p class="italic">Отправляйте вопросы и комментарии на почту <a href="mailto:inbox@gongled.ru">inbox@gongled.ru</a>.</p>
-</footer>
-
-<footer>
-  <ul class="list-reset">
-    <li class="inline-block mr1"><a href="{{ site.url }}/feed.xml">Подписаться на блог</a></li>
-  </ul>
-</footer>
+<div class="clear"></div>
