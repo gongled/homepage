@@ -21,13 +21,13 @@ LastStatus 2017-01-02 09:02:40
 ExitAddress 51.15.39.2 2017-01-02 09:07:51
 ```
 
-Обрабатываем реестр в формате [TorDNSEL](https://www.torproject.org/projects/tordnsel.html.en) и сохраняем в файл список узлов:
+Обрабатываем реестр в формате [TorDNSEL](https://www.torproject.org/projects/tordnsel.html.en) и сохраняем узлы в список:
 
 ```
-curl -Ls https://check.torproject.org/exit-addresses | grep ExitAddress | awk '{print $2}' | sort | uniq
+curl -Ls https://check.torproject.org/exit-addresses | grep ExitAddress | awk '{print $2}' | sort | uniq > tor.list
 ```
 
-Результирующий и включаем опцией `include` в секции `geo` ([`ngx_http_geo_module`](http://nginx.org/ru/docs/http/ngx_http_geo_module.html)):
+Результирующий файл и включаем опцией `include` в секции `geo` ([`ngx_http_geo_module`](http://nginx.org/ru/docs/http/ngx_http_geo_module.html)):
 
 ```
 geo $is_tor {
