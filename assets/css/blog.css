@@ -834,7 +834,7 @@ blockquote.aside-text-right p {
   color: #ababab;
   width: 240px;
   height: auto;
-  margin-right: -240px;
+  margin-right: -280px;
   padding-left: 1em;
   float: right;
   -webkit-box-sizing: border-box;
@@ -1062,6 +1062,7 @@ img.aligncenter {
 
 @media screen and (max-width: 1380px) {
   blockquote.aside-text-right p {
+    font-size: 13px;
     width: 140px;
   }
 
