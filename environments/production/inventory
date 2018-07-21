@@ -1,3 +1,3 @@
 [app]
-app1.opsrocks.net ansible_host=144.76.24.242 ansible_port=60003 ansible_user=root
+gongled.ru ansible_host=94.130.181.10
 
