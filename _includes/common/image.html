@@ -1,2 +1,3 @@
 {% capture imagePath %}{{ page.id | slugify }}/{{ include.name }}{% endcapture %}
 <img src="/assets/posts/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+{% if include.descr %}<em>{{ include.descr }}</em>{% endif %}

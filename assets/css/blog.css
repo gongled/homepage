@@ -286,6 +286,11 @@ mark {
   text-decoration: none;
 }
 
+lead {
+  font-size: 22px;
+  line-height: 32px;
+}
+
 blockquote {
   margin: 40px;
 }
@@ -602,7 +607,7 @@ article.page .post-title {
   margin-bottom: .5em;
 }
 article .post-title {
-  font-size: 32px;
+  font-size: 28px;
   line-height: 46px;
 }
 .date {
