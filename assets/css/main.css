@@ -111,7 +111,7 @@
 }
 
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Lato', Helvetica, sans-serif;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
 }
@@ -191,7 +191,6 @@ img {
   border: none;
 }
 a {
-    font-family: 'Lato', Helvetica, sans-serif;
   color: #0055B9;
   text-decoration: none;
   line-height: 22px;
@@ -228,7 +227,6 @@ input[type=search]:focus {
 }
 
 p {
-  font-family: 'Lato', Helvetica, sans-serif;
   margin: 0 0 10px 0;
 }
 
@@ -242,7 +240,6 @@ p {
 }
 .header {}
 .header__title {
-  font-family: 'Lato', Helvetica, sans-serif;
   font-size: 48px;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -345,7 +342,6 @@ p {
   border-radius: 4px;
 }
 .aside__content {
-  font-family: 'Lato', Helvetica, sans-serif;
   font-size: 15px;
   line-height: 18px;
   font-weight: normal;
