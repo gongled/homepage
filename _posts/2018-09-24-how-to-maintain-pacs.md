@@ -31,7 +31,7 @@ updated: 2018-09-16
 карт. Программируют SOCA SF-2000, подключив внешнюю клавиатуру к выходу на 
 нижней кромке корпуса.
 
-{% include common/image.html name="SOCA-SF-2000.jpg" descr="Биометрический считыватель SOCA SF-2000" %}
+{% include common/image.html name="SOCA-SF-2000.jpg" descr="Биометрический считыватель SOCA SF-2000" alt="SOCA SF-2000" %}
 
 > Выбирайте автономный считыватель с цифровой индикацией.
 Мы зря взяли [ZKT X7](https://www.zkteco.com/en/product_detail/X7.html), 
@@ -98,7 +98,7 @@ Linux оказался не востребован, хотя для крупны
 электромагнитный замок или защёлку для открытия двери. Настраивают уровень 
 сигнала — прямой или инвертированный — программно из контроллера.
 
-{% include common/image.html name="BioSmart-5M.jpg" descr="Биометрический считыватель BioSmart 5M" %}
+{% include common/image.html name="BioSmart-5M.jpg" descr="Биометрический считыватель BioSmart 5M" alt="BioSmart 5M" %}
 
 > Под оборудование BioSmart можно писать программы с BioSmart SDK.
 {:.aside-text-right}
