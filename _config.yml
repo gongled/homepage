@@ -9,8 +9,8 @@ lang: ru
 # Build settings
 markdown: kramdown
 
-# Gems
-gems:
+# Jekyll plugins
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
