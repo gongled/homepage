@@ -191,10 +191,10 @@ img {
   border: none;
 }
 a {
-  color: #0076FF;
+  color: #0055B9;
   text-decoration: none;
   line-height: 22px;
-  border-bottom: 1px solid rgba(0, 118, 255, 0.2);
+  border-bottom: 1px solid rgba(0, 85, 185, 0.2);
 }
 a:hover {
   color: #FF3824;
@@ -213,7 +213,7 @@ input:hover {
 input[type=search] {
   width: 100%;
   font-size: 14px;
-  border-color: #0076FF;
+  border-color: #0055B9;
   padding: .3em;
   margin-bottom: 1em;
 
@@ -571,5 +571,5 @@ p {
   border: 0;
 }
 .a-yes-link {
-  border-bottom: 1px solid rgba(0, 118, 255, 0.2);
+  border-bottom: 1px solid rgba(0, 85, 185, 0.2);
 }

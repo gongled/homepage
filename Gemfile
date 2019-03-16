@@ -9,13 +9,13 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.2.1"
+gem "jekyll", "3.6.3"
 gem "jekyll-sitemap"
 gem "jekyll-gist"
 gem "jekyll-paginate"
 gem "jemoji"
 gem "html-proofer"
-gem "nokogiri", "~> 1.8.2"
+gem "nokogiri", "~> 1.8.5"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima"

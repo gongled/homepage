@@ -9,8 +9,8 @@ lang: ru
 # Build settings
 markdown: kramdown
 
-# Gems
-gems:
+# Jekyll plugins
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
@@ -20,11 +20,15 @@ gems:
 sass:
     style: :compressed
 
-analytics:
-  google:
-    tracking_code: UA-89780216-1
-  yandex:
-    tracking_code: 24643331
+# Analytics and counters
+#
+# Uncomment settings below to enable Google Analytics and Yandex.Metrika.
+#
+# analytics:
+#   google:
+#     tracking_code: UA-89780216-1
+#   yandex:
+#     tracking_code: 24643331
 
 contacts:
   googleplus: GlebGoncharov
