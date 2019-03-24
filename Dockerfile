@@ -1,23 +1,11 @@
 FROM ruby:2.6.2
 
-###############################################################################
+COPY Gemfile Gemfile.lock Makefile /app/
 
-LABEL name="Jekyll application" \
-      license="MIT" \
-      maintainer="Gleb E Goncharov" \
-      build-date="2018-01-08"
-
-###############################################################################
-
-ADD Gemfile* /app/
-ADD Makefile /app/
-
-WORKDIR /app
-
-EXPOSE 4000
+WORKDIR "/app"
 
 RUN make deps
 
-VOLUME ["/app"]
+EXPOSE 4000
 
-###############################################################################
+VOLUME ["/app"]
