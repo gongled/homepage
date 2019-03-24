@@ -9,6 +9,13 @@ TRANSPORT = ssh
 
 all: release
 
+run: stop
+	docker-compose up -d --build
+
+stop:
+	docker-compose stop
+	docker-compose rm -f
+
 release:
 	docker-compose run --rm -u $(shell id -u) --service-ports app make build
 
