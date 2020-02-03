@@ -1,0 +1,23 @@
+---
+layout: work
+title: Инструменты и технологии
+---
+
+<section class="content">
+    <div class="content__header">
+        <p class="title__link">Технологии</p>
+    </div>
+
+    {% if site.data.tools %}
+    <div class="content__container">
+        <div class="content__list">
+            {% for tool in site.data.tools %}
+            <article class="article">
+                <p class="article__small">{{ tool }}</p>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+</section>
+<div class="clear"></div>

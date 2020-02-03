@@ -1,0 +1,28 @@
+---
+layout: default
+title: Путешествую
+---
+
+<section class="content">
+    <div class="content__header">
+        <p class="title__link">Путешествия</p>
+    </div>
+
+    <div class="content__container">
+        <div class="content__list">
+            {% assign travels = site.travels | reverse %}
+            {% for travel in travels %}
+            {% capture this_year %}{{ travel.date | date: "%Y" }}{% endcapture %}
+            <article class="article">
+                {% if travel.city %}
+                <a href="{{ travel.url }}"><img src="/assets/travels/thumbnails/{{ this_year }}/{{ travel.city }}.jpg" alt="{{ travel.title }}" width="240px" height="160px" /></a>
+                {% else %}
+                <a href="{{ travel.url }}"><img src="/assets/travels/thumbnails/thumb.jpg" alt="{{ travel.title }}" width="240px" height="160px" /></a>
+                {% endif %}
+                <p class="article__small"><a href="{{ travel.url }}">{{ travel.title }}</a>, {{ travel.date | date: "%Y год" }}</p>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="clear"></div>
+</section>

@@ -1,5 +1,5 @@
 ---
-title: Блокировка Tor в NGINX
+title: Как блокировать пользователей Tor в Nginx
 updated: 2017-01-03
 ---
 

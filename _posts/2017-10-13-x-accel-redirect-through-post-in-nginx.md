@@ -1,5 +1,5 @@
 ---
-title: X-Accel-Redirect для POST-запросов в NGINX
+title: Как передать тело запроса вместе с X-Accel-Redirect
 updated: 2017-09-16
 ---
 

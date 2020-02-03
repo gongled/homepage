@@ -1,5 +1,5 @@
 ---
-title: О работе gzip_no_buffer в NGINX
+title: Разбираемся в работе gzip_no_buffer в Nginx
 updated: 2017-09-16
 ---
 

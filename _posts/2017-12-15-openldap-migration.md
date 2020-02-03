@@ -1,5 +1,5 @@
 ---
-title: Миграция базы данных OpenLDAP
+title: Как мигрировать базу данных OpenLDAP
 updated: 2017-12-13
 ---
 

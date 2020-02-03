@@ -6,6 +6,8 @@
 
 - title: Базы данных и брокеры
   tags:
+    - ClickHouse
+    - Mosquitto
     - OpenLDAP
     - MySQL
     - PostgreSQL
@@ -15,17 +17,20 @@
     - Kafka
     - Zookeeper
 
+- title: Почтовые серверы
+  tags:
+    - Postfix
+    - Dovecot
+    - Amavis
+    - OpenDKIM
+
 - title: Системы кластеризации
   tags:
-    - Ganeti
     - Apache Mesos
     - Marathon
-    - Kubernetes
-    - Docker Swarm
 
 - title: Гипервизоры и контейнеры
   tags:
-    - Xen
     - OpenVZ
     - Qemu/KVM
     - VirtualBox
@@ -40,7 +45,6 @@
     - Vagrant
     - Docker Compose
     - Terraform
-    - Otto
     - RPM
     - Make
 
@@ -65,7 +69,6 @@
   tags:
     - Amazon AWS
     - Digital Ocean
-    - Google Cloud Engine
 
 - title: Сборщики метрик и логов
   tags:
@@ -79,7 +82,6 @@
     - Kibana
     - Grafana
     - Zabbix
-    - Netdata
 
 - title: Языки программирования
   tags:

@@ -1,0 +1,63 @@
+# Веб-серверы и балансировщики
+  - Nginx
+  - Apache
+  - HAProxy
+# Базы данных и брокеры
+  - ClickHouse
+  - Mosquitto
+  - OpenLDAP
+  - MySQL
+  - PostgreSQL
+  - Redis
+  - InfluxDB
+  - ElasticSearch
+  - Kafka
+  - Zookeeper
+# Почтовые серверы
+  - Postfix
+  - Dovecot
+  - Amavis
+  - OpenDKIM
+# Системы кластеризации
+  - Apache Mesos
+  - Marathon
+# Гипервизоры и контейнеры
+  - OpenVZ
+  - Qemu/KVM
+  - VirtualBox
+  - VMWare ESXi
+  - Docker
+# Инструменты разработки
+  - Git
+  - Jenkins
+  - Packer
+  - Vagrant
+  - Docker Compose
+  - Terraform
+  - RPM
+  - Make
+# Инструменты тестирования и отладки
+  - XDebug
+  - XHProf
+  - Yandex Tank
+  - jMeter
+# Системы управления конфигурациями
+  - Ansible
+  - SaltStack
+# Облачные провайдеры
+  - Amazon AWS
+  - Digital Ocean
+# Сборщики метрик и логов
+  - Filebeat
+  - Flume
+  - Logstash
+  - Collectd
+# Системы визуализации и мониторинга
+  - Kibana
+  - Grafana
+  - Zabbix
+# Языки программирования
+  - PHP
+  - Python
+  - Go
+  - Shell

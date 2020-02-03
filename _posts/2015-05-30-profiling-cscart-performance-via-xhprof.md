@@ -1,5 +1,5 @@
 ---
-title: Профилирование CS-Cart в XHProf
+title: Как профилировать CS-Cart с XHProf
 updated: 2015-05-30
 ---
 

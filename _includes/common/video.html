@@ -1,0 +1,5 @@
+{% capture videoPath %}{{ page.id | slugify }}/{{ include.name }}{% endcapture %}
+{% capture posterPath %}{{ page.id | slugify }}/{{ include.poster }}{% endcapture %}
+<video controls {% if include.poster %}poster="/assets/posts/{{ posterPath }}"{% endif %}>
+    <source src="/assets/posts/{{ videoPath }}" type="video/mp4">
+</video>
