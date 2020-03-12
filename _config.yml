@@ -1,9 +1,9 @@
 whoami: Глеб Гончаров
 title: Сайт Глеба Гончарова
 description: Системный администратор в ФанБоксе. Автоматизирую и сопровождаю инфраструктуру для проектов мобильных операторов.
-email: inbox@gongled.ru
+email: inbox@gon.gl
 baseurl: ""
-url: "https://gongled.ru"
+url: "https://gon.gl"
 lang: ru
 
 # Build settings
