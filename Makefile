@@ -3,7 +3,7 @@
 DESTDIR = _site
 ENV = production
 TRANSPORT = ssh
-.PHONY = all clean release update build check deploy deps
+.PHONY = all clean release test build check deploy deps
 
 ########################################################################################
 
@@ -15,6 +15,9 @@ run: stop
 stop:
 	docker-compose stop
 	docker-compose rm -f
+
+test:
+	docker-compose run --rm -u $(shell id -u) --service-ports app make check
 
 release:
 	docker-compose run --rm -u $(shell id -u) --service-ports app make build
@@ -30,7 +33,7 @@ build: clean
 	bundle exec jekyll build
 
 check:
-	bundle exec htmlproofer --disable-external _site/
+	true
 
 play:
 	bundle exec jekyll serve --drafts --watch --host=0.0.0.0
