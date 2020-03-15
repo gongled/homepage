@@ -3,7 +3,7 @@ services:
   app:
     build:
       context: .
-    command: make play
+    command: bundle exec jekyll serve --drafts --watch --host=0.0.0.0
     expose:
       - 4000
     ports:

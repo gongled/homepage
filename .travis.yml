@@ -3,11 +3,11 @@ rvm:
 - 2.6.2
 
 before_script:
-- make deps
+- gem install bundler
+- bundle install
 
 script:
-- make build
-- make check
+- bundle exec jekyll build
 
 env:
   global:

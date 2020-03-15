@@ -6,22 +6,37 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'make release'
+                sh 'make prep'
             }
-        }
-
-        stage('Test') {
+            steps {
+                sh 'make build'
+            }
+            steps {
+                sh 'make check'
+            }
+            steps {
+                sh 'make pack'
+            }
+            steps {
+                sh 'make publish'
+            }
             steps {
                 sh 'make test'
             }
         }
 
-        stage('Deploy') {
+        stage('Release') {
             when {
                 branch 'master'
             }
             steps {
-                sh 'make deploy'
+                sh 'make release'
+            }
+        }
+
+        stage('Clean') {
+            steps {
+                sh 'make clean'
             }
         }
     }

@@ -3,44 +3,44 @@
 DESTDIR = _site
 ENV = production
 TRANSPORT = ssh
-.PHONY = all clean release test build check deploy deps
+.PHONY = all prep build check pack publish test release clean start stop
 
 ########################################################################################
 
-all: release
+all: prep build check pack publish test release clean
 
-run: stop
-	docker-compose up -d --build
+prep:
+	true
 
-stop:
-	docker-compose stop
-	docker-compose rm -f
-
-test:
-	docker-compose run --rm -u $(shell id -u) --service-ports app make check
-
-release:
-	docker-compose run --rm -u $(shell id -u) --service-ports app make build
-
-########################################################################################
-
-deploy:
-	ansible-playbook deploy.yml -i environments/$(ENV) --extra-vars="env=$(ENV)" -c $(TRANSPORT) 
-
-########################################################################################
-
-build: clean
-	bundle exec jekyll build
+build:
+	docker-compose run --rm -u $(shell id -u):$(shell id -g) --service-ports app \
+		bundle exec jekyll build
 
 check:
 	true
 
-play:
-	bundle exec jekyll serve --drafts --watch --host=0.0.0.0
+pack:
+	true
 
-deps:
-	gem install bundler
-	bundle install
+publish:
+	true
+
+test:
+	true
+
+release:
+	ansible-playbook deploy.yml -i environments/$(ENV) \
+		--extra-vars="env=$(ENV)" \
+		-c $(TRANSPORT) 
 
 clean:
 	rm -rf _site/ deploy.retry
+
+########################################################################################
+
+start: stop
+	docker-compose up -d
+
+stop:
+	docker-compose stop
+	docker-compose rm -f

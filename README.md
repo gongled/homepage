@@ -25,17 +25,25 @@ $ make release
 Start the Jekyll Server to run the website.
 
 ```
-$ docker-compose up
+$ make start
 ```
 
 You can navigate to `0.0.0.0:4000` in your browser to see the site.
+
+## Build
+
+Use `build` target to build static assets.
+
+```
+$ make build
+```
 
 ## Deployment
 
 Run this command to deploy website on your VPS:
 
 ```
-make ENV=production deploy
+make ENV=production release
 ```
 
 ## Travis CI status
