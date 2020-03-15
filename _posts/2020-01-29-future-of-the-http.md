@@ -6,7 +6,7 @@ updated: 2020-01-29
 
 В январе выступил в [ФанБоксе](https://funbox.ru) с докладом о трендах развития HTTP.
 
-{% include common/video.html name="20200129.mp4" poster="20200129.jpg" %}
+{% include common/video.html name="20200129-future-of-the-http.mp4" poster="20200129.jpg" %}
 
 Готовясь к выступлению, прочёл 53 документа, обсуждаемые в
 [IETF HTTPWG](https://datatracker.ietf.org/wg/httpbis/documents/) и отобрал 4

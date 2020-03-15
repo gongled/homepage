@@ -8,7 +8,7 @@ updated: 2020-02-27
 Рассказали о том, зачем уделять внимание содержанию углекислого газа,
 как автоматизировать сбор метрик и как держать концентрацию в норме.
 
-{% include common/video.html name="20200227.mp4" poster="20200227.jpg" %}
+{% include common/video.html name="20200227-how-to-measure-carbon-dioxide.mp4" poster="20200227.jpg" %}
 
 ## Что нужно знать об углекислом газе
 
