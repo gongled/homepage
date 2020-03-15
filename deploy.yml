@@ -6,12 +6,10 @@
     - "environments/{{ env }}/group_vars/project.yml"
   tasks:
     - name: deploy application to working directory
-      become: yes
-      become_user: "{{ act_as|default('deploy') }}"
+      become: no
       synchronize:
         src: "_site/"
         dest: "{{ app.path }}/"
         archive: yes
         delete: yes
         recursive: yes
-        rsync_path: "sudo -u {{ act_as|default('deploy') }} rsync"
