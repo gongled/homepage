@@ -21,7 +21,7 @@ pipeline {
                 branch 'master'
             }
             steps {
-                sh 'make TRANSPORT=local deploy'
+                sh 'make deploy'
             }
         }
     }
