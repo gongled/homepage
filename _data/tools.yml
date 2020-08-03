@@ -22,6 +22,7 @@
   - Apache Mesos
   - Marathon
 # Гипервизоры и контейнеры
+  - Kubernetes
   - OpenVZ
   - Qemu/KVM
   - VirtualBox
@@ -56,6 +57,7 @@
   - Kibana
   - Grafana
   - Zabbix
+  - Prometheus
 # Языки программирования
   - PHP
   - Python
