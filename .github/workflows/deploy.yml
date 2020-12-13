@@ -17,6 +17,7 @@ jobs:
         run: hugo --gc --minify --cleanDestinationDir
 
       - name: Deploy
+        if: success()
         uses: burnett01/rsync-deployments@4.1
         with:
           switches: -avzr --delete
