@@ -4,18 +4,19 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-      - name: Git checkout
+      - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Setup hugo
+      - name: Setup
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "0.79.0"
+          extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --gc --minify --cleanDestinationDir
 
-      - name: rsync deployments
+      - name: Deploy
         uses: burnett01/rsync-deployments@4.1
         with:
           switches: -avzr --delete
