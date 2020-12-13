@@ -1,9 +1,7 @@
+/public/
+/resources/_gen/
 .DS_Store
-_drafts
-_site
-*.retry
-.sass-cache
-.jekyll-metadata
-.bundle
-.tweet-cache
-*.mp4
+
+hugo.exe
+hugo.linux
+hugo.darwin

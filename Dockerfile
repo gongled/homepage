@@ -1,8 +1,8 @@
-FROM ruby:2.6.2
+FROM debian:latest as builder
+
 WORKDIR "/app"
 
-COPY Gemfile Gemfile.lock Makefile /app/
-RUN gem install bundler && \
-    bundle install
+RUN apt update && \
+    apt install -y hugo
 
-EXPOSE 4000
+EXPOSE 1313

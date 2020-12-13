@@ -8,7 +8,7 @@
     - name: deploy application to working directory
       become: no
       synchronize:
-        src: "_site/"
+        src: "public/"
         dest: "{{ app.path }}/"
         archive: yes
         delete: yes

@@ -13,8 +13,7 @@ prep:
 	true
 
 build:
-	docker-compose run --rm -u $(shell id -u):$(shell id -g) --service-ports app \
-		bundle exec jekyll build
+	docker-compose run --rm -u $(shell id -u):$(shell id -g) app hugo
 
 check:
 	true

@@ -1,8 +1,8 @@
-<p align="center"><a href="#requirements">Requirements</a> • <a href="#quick-start">Quick start</a> • <a href="#playground">Playground</a> • <a href="#deployment">Deployment</a> • <a href="#travis-ci-status">Travis CI status</a> • <a href="#license">License</a></p>
+<p align="center"><a href="#requirements">Requirements</a> • <a href="#quick-start">Quick start</a> • <a href="#playground">Playground</a> • <a href="#deployment">Deployment</a> • <a href="#license">License</a></p>
 
 # About
 
-Homepage with pretty minimal design which based on [Jekyll](http://jekyllrb.com).
+Homepage with pretty minimal design which based on [Hugo](https://gohugo.io).
 
 ## Requirements
 
@@ -12,7 +12,7 @@ Homepage with pretty minimal design which based on [Jekyll](http://jekyllrb.com)
 
 ## Quick start
 
-If you're new to Jekyll, please read the [documentation](http://jekyllrb.com).
+If you're new to Hugo, please read the [documentation](https://gohugo.io).
 
 ```
 $ git clone https://github.com/gongled/homepage.git
@@ -22,13 +22,13 @@ $ make release
 
 ## Playground
 
-Start the Jekyll Server to run the website.
+Start the Hugo Server to run the website.
 
 ```
 $ make start
 ```
 
-You can navigate to `0.0.0.0:4000` in your browser to see the site.
+You can navigate to `0.0.0.0:1313` in your browser to see the site.
 
 ## Build
 
@@ -45,13 +45,6 @@ Run this command to deploy website on your VPS:
 ```
 make ENV=production release
 ```
-
-## Travis CI status
-
-| Branch | Status |
-|------------|--------|
-| `master` | [![Build Status](https://travis-ci.org/gongled/homepage.svg?branch=master)](https://travis-ci.org/gongled/homepage) |
-| `develop` | [![Build Status](https://travis-ci.org/gongled/homepage.svg?branch=develop)](https://travis-ci.org/gongled/homepage) |
 
 ## License
 

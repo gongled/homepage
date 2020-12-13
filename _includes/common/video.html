@@ -1,5 +1,0 @@
-{% capture videoPath %}{{ include.name }}{% endcapture %}
-{% capture posterPath %}{{ page.id | slugify }}/{{ include.poster }}{% endcapture %}
-<video controls {% if include.poster %}poster="/assets/posts/{{ posterPath }}"{% endif %}>
-    <source src="https://static.gon.gl/video/{{ videoPath }}" type="video/mp4">
-</video>
