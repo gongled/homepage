@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+{{ $months := index $.Site.Data.months }}
+
+<section class="content">
+  <div class="content__header">
+      <time class="date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Day }} {{ index $months (printf "%d" .Date.Month) }} {{ .Date.Year }} года</time>
+      <p class="title__link"><a href="{{ .Permalink | relURL }}">{{ .Title }}</a></p>
+  </div>
+
+  <div class="content__container">
+      <article class="post">
+          {{ .Content }}
+      </article>
+  </div>
+  <div class="clear"></div>
+</section>
+
+{{ end }}

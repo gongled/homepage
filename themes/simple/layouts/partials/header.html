@@ -1,0 +1,18 @@
+<header class="header">
+  {{ if .IsHome }}
+  <h1 class="header__title">{{ .Site.Params.Author }}</h1>
+  {{ else }}
+  <h1 class="header__title"><a href="{{ .Site.BaseURL }}">{{ .Site.Params.Author }}</a></h1>
+  {{ end }}
+  <div class="header__description">
+    {{ if .IsHome }}
+    <p>Системный администратор в <a href="https://funbox.ru/" target="_blank" rel="noopener">ФанБоксе</a>.
+    Проектирую, создаю и сопровождаю инфраструктуру проектов для мобильных операторов.<br /><br />
+
+    <a href="/work/">Работаю</a>, чтобы снижать издержки ИТ-компаний на эксплуатацию сервисов.
+    В свободное время <a href="/blog/">веду блог</a>, читаю и путешествую.
+    {{ else }}
+    <p class="menu__list"><a href="/work/">Работа</a> • <a href="/blog/">Блог</a></p>
+    {{ end }}
+  </div>
+</header>

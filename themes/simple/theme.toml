@@ -1,0 +1,13 @@
+name = "simple"
+license = "MIT"
+licenselink = "https://github.com/gongled/website/blob/master/LICENSE"
+description = "A simple Hugo theme"
+homepage = "https://github.com/gongled/website"
+tags = ["blog", "simple", "clean", "highlight", "readable"]
+features = ["blog", "simple", "clean", "highlight"]
+min_version = "0.51"
+
+[author]
+  name = "Gleb E Goncharov"
+  homepage = "https://gongled.github.io/"
+  repo = "https://github.com/gongled/website"

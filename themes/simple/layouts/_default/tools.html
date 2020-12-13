@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+{{ partial "head.html" . }}
+<body>
+  {{ partial "header.html" . }}
+  
+  <section class="content">
+    <div class="content__header">
+        <p class="title__link">Технологии</p>
+    </div>
+
+    {{ $tools := index $.Site.Data.tools }}
+
+
+    <div class="content__container">
+        <div class="content__list">
+            {{ range $tools }}
+            <article class="article">
+                <p class="article__small">{{ . }}</p>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+  </section>
+  <div class="clear"></div>
+</body>
+{{ partial "foot.html" . }}
+</html>

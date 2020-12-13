@@ -1,0 +1,4 @@
+{{- $src := .Get "src" -}}
+<video controls poster="{{ .Site.Params.videoURL }}/{{ $src }}.png">
+    <source src="{{ .Site.Params.videoURL }}/{{ $src }}" type="video/mp4">
+</video>

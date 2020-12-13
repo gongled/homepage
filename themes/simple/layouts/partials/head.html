@@ -1,0 +1,20 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta property="og:locale" content="ru_RU">
+
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}</title>
+  {{- if or .Description .Site.Params.description }}
+  <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+  {{- end }}
+
+  {{ template "_internal/opengraph.html" . }}
+
+  {{- if .Params.favicon }}
+  <link rel="icon" href="{{ .Site.Params.favicon }}">
+  {{- end }}
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="alternate" type="application/rss+xml" href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" title="{{ .Site.Title }}">
+</head>
