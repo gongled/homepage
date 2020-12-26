@@ -39,7 +39,7 @@ make build
 Запустите команду ниже для доставки сайта на веб-сервер.
 
 ```
-make ENV=production release
+make release
 ```
 
 ## Лицензия
