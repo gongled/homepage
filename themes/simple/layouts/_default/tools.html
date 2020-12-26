@@ -11,13 +11,12 @@
 
     {{ $tools := index $.Site.Data.tools }}
 
-
     <div class="content__container">
         <div class="content__list">
             {{ range $tools }}
-            <article class="article">
+            <div class="content__list_child">
                 <p class="article__small">{{ . }}</p>
-            </article>
+            </div>
             {{ end }}
         </div>
     </div>

@@ -513,13 +513,19 @@ blockquote.aside-text-right {
     float: left;
   }
   .content__list {
-    -webkit-column-count: 4;
+    display: flex;
+    flex-wrap: wrap;
+    /* -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 4;
 
     -webkit-column-gap: 50px;
     -moz-column-gap: 50px;
-    column-gap: 50px;
+    column-gap: 50px; */
+  }
+  .content__list_child {
+    width: 25%;
+    box-sizing: border-box;
   }
   .content__aside {
     width: 10%;
