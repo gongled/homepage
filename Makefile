@@ -1,6 +1,5 @@
 ########################################################################################
 
-DESTDIR = _site
 ENV = production
 TRANSPORT = ssh
 .PHONY = all prep build check pack publish test release clean start stop
@@ -33,7 +32,7 @@ release:
 		-c $(TRANSPORT) 
 
 clean:
-	rm -rf _site/ deploy.retry
+	rm -rf public/
 
 ########################################################################################
 
