@@ -1,0 +1,29 @@
+{
+  "name": "gon.gl",
+  "version": "1.0.0",
+  "description": "Личный сайт и блог на статическом генераторе [Hugo](https://gohugo.io).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gongled/gon.gl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gongled/gon.gl/issues"
+  },
+  "homepage": "https://github.com/gongled/gon.gl#readme",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.13",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.1",
+    "purgecss": "^3.1.3",
+    "tailwindcss": "^2.1.2"
+  }
+}

@@ -11,10 +11,18 @@
 
   {{ template "_internal/opengraph.html" . }}
 
+  {{ $styles := resources.Get "css/styles.scss" | toCSS | postCSS (dict "config" "./assets/css/postcss.config.js") }}
+  {{ if .Site.IsServer }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+  {{ else }}
+  {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+  {{ end }}
+
   {{- if .Params.favicon }}
   <link rel="icon" href="{{ .Site.Params.favicon }}">
   {{- end }}
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
+  <!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css"> -->
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="alternate" type="application/rss+xml" href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" title="{{ .Site.Title }}">
 </head>

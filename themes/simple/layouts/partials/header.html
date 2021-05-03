@@ -1,18 +1,25 @@
-<header class="header">
+<header>
   {{ if .IsHome }}
-  <h1 class="header__title">{{ .Site.Params.Author }}</h1>
+  <h1 class="text-4xl font-sans font-bold">{{ .Site.Params.Author }}</h1>
   {{ else }}
-  <h1 class="header__title"><a href="{{ .Site.BaseURL }}">{{ .Site.Params.Author }}</a></h1>
+  <h1 class="text-4xl font-sans font-bold"><a class="text-black hover:text-black hover:underline" href="{{ .Site.BaseURL }}">{{ .Site.Params.Author }}</a></h1>
   {{ end }}
-  <div class="header__description">
+  <div class="pt-8 xl:pt-6 lg:pt-4">
     {{ if .IsHome }}
-    <p>Системный администратор в <a href="https://funbox.ru/" target="_blank" rel="noopener">ФанБоксе</a>.
-    Проектирую, создаю и сопровождаю инфраструктуру проектов для мобильных операторов.<br /><br />
-
-    <a href="/work/">Работаю</a>, чтобы снижать издержки ИТ-компаний на эксплуатацию сервисов.
-    В свободное время <a href="/blog/">веду блог</a>, читаю и путешествую.
+    <p class="pt-0 text-left text-2xl font-sans antialiased leading-9 tracking-normal">
+      Системный администратор в <a href="https://funbox.ru/" target="_blank" rel="noopener">ФанБоксе</a>.
+      Проектирую, создаю и сопровождаю инфраструктуру проектов для мобильных операторов.
+    </p>
+    <p class="pt-9 text-left text-2xl font-sans antialiased leading-9 tracking-normal">
+      <a href="/work/">Работаю</a>, чтобы снижать издержки ИТ-компаний на эксплуатацию сервисов. В свободное время <a href="/blog/">веду блог</a>, читаю и путешествую.
+    </p>
     {{ else }}
-    <p class="menu__list"><a href="/work/">Работа</a> • <a href="/blog/">Блог</a></p>
+    <nav>
+      <div class="flex space-x-6 text-2xl">
+        <div class="flex-initial"><a href="/work/">Работа</a></div>
+        <div class="flex-initial"><a href="/blog/">Блог</a></div>
+      </div>
+    </nav>
     {{ end }}
   </div>
 </header>

@@ -10,11 +10,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Setup
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.79.0"
+          hugo-version: '0.81.0'
           extended: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '12.x'
+
+      - name: Cache dependencies
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        run: npm ci
 
       - name: Build
         run: hugo --gc --minify --cleanDestinationDir

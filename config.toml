@@ -25,5 +25,4 @@ theme = "simple"
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "vs"
     tabWidth = 4

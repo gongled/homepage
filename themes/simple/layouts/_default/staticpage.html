@@ -1,17 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "en" }}">
-{{ partial "head.html" . }}
-<body>
-  {{ partial "header.html" . }}
-  <section class="content">
-    <div class="content__container">
-        <article class="post">
-            {{ .Content }}
-        </article>
-    </div>
-    <div class="clear"></div>
-  </section>
-  <div class="clear"></div>
-</body>
-{{ partial "foot.html" . }}
-</html>
+{{ define "main" }}
+<section class="pt-8">
+    <article class="prose prose-lg">
+    {{ .Content }}
+    </article>
+</section>
+{{ end }}

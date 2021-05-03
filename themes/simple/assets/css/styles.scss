@@ -1,0 +1,7 @@
+@import "node_modules/tailwindcss/base";
+@import "node_modules/tailwindcss/components";
+@import "node_modules/tailwindcss/utilities";
+
+a {
+    @apply text-blue-600 hover:text-blue-400 no-underline;
+}

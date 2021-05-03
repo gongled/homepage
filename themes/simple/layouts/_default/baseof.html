@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
 {{ partial "head.html" . }}
-<body>
+<body class="container p-8 w-auto xl:p-16 lg:p-12 xl:w-3/5 lg:w-2/3 font-sans text-xl text-left font-normal antialiased">
   {{ partial "header.html" . }}
   {{ if not .IsHome }}
   {{- block "main" . }}{{- end }}
