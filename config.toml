@@ -3,6 +3,9 @@ languageCode = "ru-ru"
 title = "Сайт Глеба Гончарова"
 theme = "simple"
 
+[build]
+  writeStats = true
+
 [permalinks]
   blog = "/blog/:filename/"
   work = "/work/:filename/"
