@@ -50,7 +50,7 @@ server {
     #
     ssl_certificate             /etc/letsencrypt/live/$ssl_certificate_filename/fullchain.pem;
     ssl_certificate_key         /etc/letsencrypt/live/$ssl_certificate_filename/privkey.pem;
-    ssl_trusted_certificate     /etc/webkaos/ssl/letsencrypt-chain.pem;
+    ssl_trusted_certificate     /etc/nginx/ssl/letsencrypt-chain.pem;
 
     # Enable ACME PKI provisioning
     include xtra/acme.conf;
