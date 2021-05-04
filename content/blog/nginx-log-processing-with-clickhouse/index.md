@@ -45,7 +45,6 @@ Zookeeper на схеме требуется Kafka-кластеру. Он так
 Как, например, в случае с `$upstream_response_time`: когда в конфигурации Nginx нет `upstream` (ответ отдаётся сервером напрямую), то переменная будет пустой строкой. В этом случае практичнее передавать её как строку, а уже на стороне ClickHouse преобразовывать в число нужного типа с помощью функций `toFloat32OrZero()` или `toFloat64OrZero()`.
 
 > Подробнее о [функциях преобразованиях типов](https://clickhouse-docs.readthedocs.io/en/latest/functions/type_conversion_functions.html) в документации ClickHouse.
-{:.aside-text-right}
 
 Или же можно передавать в лог не её, а map-переменную:
 
@@ -592,9 +591,7 @@ ORDER BY
 ```
 </details>
 
-{{< aside >}}
-Польза от централизованного логирования должна быть выше цены на поддержку своей Grafana и всей инфраструктуры доставки ПО (репозитории, CI/CD для сборки пакетов и пр.
-{{< /aside >}}
+> Польза от централизованного логирования должна быть выше цены на поддержку своей Grafana и всей инфраструктуры доставки ПО (репозитории, CI/CD для сборки пакетов и пр.
 
 Для поддержки алертинга по данным из ClickHouse Datasource необходимо собрать Grafana с поддержкой ClickHouse TSDB. Из публично доступных реализаций есть [патч к Grafana 6.5 от пользователя @Aquatoid87](https://github.com/essentialkaos/kaos-repo/pull/229). Обратите внимание, что для интеграции с плагином от Vertamedia, необходимо также включить алертинг в самом расширении ([src/plugin.json](https://github.com/Vertamedia/clickhouse-grafana/blob/master/src/plugin.json)).
 
