@@ -2,6 +2,8 @@ baseURL = "https://gon.gl/"
 languageCode = "ru-ru"
 title = "Сайт Глеба Гончарова"
 theme = "simple"
+avatar = "userpic.jpg"
+staticDir = ["static"]
 
 [build]
   writeStats = true

@@ -1,6 +1,10 @@
 module.exports = {
   theme: {
     extend: {
+      inset: {
+        "-1": "-0.25rem",
+        "-2": "-0.5rem",
+      },
       typography: (theme) => ({
         DEFAULT: {
           css: {
@@ -42,7 +46,9 @@ module.exports = {
       })
     },
   },
-  variants: {},
+  variants: {
+    borderColor: ["responsive", "last", "hover", "focus"],
+  },
   plugins: [
     require('@tailwindcss/typography'),
   ]

@@ -5,3 +5,9 @@
 a {
     @apply text-blue-600 hover:text-blue-400 no-underline;
 }
+
+.feed-item::after {
+    content: "";
+    left: -7px;
+    @apply block absolute top-0 w-3 h-3 bg-white border border-gray-400 rounded-full;
+}

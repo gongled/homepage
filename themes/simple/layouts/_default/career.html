@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="pt-8">
+  <article class="prose prose-lg">
+  <h3 class="font-semibold text-2xl">{{ .Title }}</h2>
+  {{ .Content }}
+  </article>
+</section>
+<section class="pt-8">
+  {{ $career := index $.Site.Data.career.career }}
+  <ol class="p-4">
+    {{ range $career }}
+    <li class="feed-item relative pb-5 pl-6 border-l-2 border-gray-300 last:border-transparent" key="event-1">
+      <time class="block text-gray-500 relative text-sm -top-1">{{ .time }}</time>
+      <span class="text space-y-4 leading-relaxed">
+        <p class="font-bold"><a href="{{ .website }}">{{ .company }}</a></p>
+        {{ .description | markdownify }}
+      </span>
+    </li>
+    {{ end }}
+  </ol>
+</section>
+{{ end }}
