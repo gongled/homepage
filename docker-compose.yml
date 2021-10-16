@@ -3,7 +3,7 @@ services:
   app:
     build:
       context: .
-    command: hugo server --bind="0.0.0.0"
+    command: server --bind="0.0.0.0"
     expose:
       - 1313
     ports:

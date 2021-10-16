@@ -2,25 +2,26 @@
 
 ENV = production
 TRANSPORT = ssh
-.PHONY = all prep build check pack publish test release clean start stop
+.PHONY = all deps build play check pack test release clean start stop
 
 ########################################################################################
 
-all: prep build check pack publish test release clean
+all: deps build check pack test release clean
 
-prep:
-	true
+deps:
+	npm audit fix
+	npm ci
 
 build:
-	docker-compose run --rm -u $(shell id -u):$(shell id -g) app hugo
+	hugo --gc --minify --cleanDestinationDir
+
+play:
+	hugo server --bind="0.0.0.0"
 
 check:
 	true
 
 pack:
-	true
-
-publish:
 	true
 
 test:
