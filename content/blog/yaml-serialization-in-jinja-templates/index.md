@@ -51,7 +51,7 @@ log.cleaner.enable=<%= @config['log']['cleaner']['enable'] %>
 
 Кроме того, каждый SCM предоставляет собственный механизм расширения функциональности ([Ansible Filters](https://docs.ansible.com/ansible/devel/plugins/filter.html#enabling-filter-plugins), [SaltStack Serializer Modules](https://docs.saltproject.io/en/latest/ref/serializers/all/index.html)), что делает решение непереносимым между разными управляющими узлами.
 
-В поисках одновременно простого и лёгкого решения, остановится на шаблонизации с использованием [макросов Jinja](https://jinja.palletsprojects.com/en/3.0.x/templates/#macros).
+В поисках одновременно простого и лёгкого решения, остановился на шаблонизации с использованием [макросов Jinja](https://jinja.palletsprojects.com/en/3.0.x/templates/#macros).
 
 ## YAML в XML
 
