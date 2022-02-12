@@ -4,7 +4,7 @@
       {{ if .IsHome }}
       <h1 class="text-4xl font-sans font-bold">{{ .Site.Params.Author }}</h1>
       {{ else }}
-      <h1 class="text-4xl font-sans font-bold"><a class="text-black hover:text-black hover:underline" href="{{ .Site.BaseURL }}">{{ .Site.Params.Author }}</a></h1>
+      <h1 class="text-4xl font-sans font-bold"><a class="text-black hover:text-black hover:underline" href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.Author }}</a></h1>
       {{ end }}
     </div>
     {{ if gt (len .AllTranslations) 1 }}
@@ -13,9 +13,9 @@
         {{ range .AllTranslations }}
         <div>
           {{- if eq (string $.Site.Language) .Lang -}}
-            {{ .Lang }}
+            <p class="text-gray-400">{{ .Lang }}</p>
           {{ else }}
-            <a href="{{ .Permalink }}">{{ .Lang }}</a>
+            <p><a href="{{ .Permalink }}">{{ .Lang }}</a></p>
           {{ end }}
         </div>
         {{ end }}
