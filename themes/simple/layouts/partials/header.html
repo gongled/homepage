@@ -1,14 +1,35 @@
 <header>
-  {{ if .IsHome }}
-  <h1 class="text-4xl font-sans font-bold">{{ .Site.Params.Author }}</h1>
-  {{ else }}
-  <h1 class="text-4xl font-sans font-bold"><a class="text-black hover:text-black hover:underline" href="{{ .Site.BaseURL }}">{{ .Site.Params.Author }}</a></h1>
-  {{ end }}
+  <div class="grid grid-cols-3 gap-4">
+    <div class="col-span-2">
+      {{ if .IsHome }}
+      <h1 class="text-4xl font-sans font-bold">{{ .Site.Params.Author }}</h1>
+      {{ else }}
+      <h1 class="text-4xl font-sans font-bold"><a class="text-black hover:text-black hover:underline" href="{{ .Site.BaseURL }}">{{ .Site.Params.Author }}</a></h1>
+      {{ end }}
+    </div>
+    {{ if gt (len .AllTranslations) 1 }}
+    <div class="relative">
+      <div class="absolute inset-y-0 right-0 flex space-x-2">
+        {{ range .AllTranslations }}
+        <div>
+          {{- if eq (string $.Site.Language) .Lang -}}
+            {{ .Lang }}
+          {{ else }}
+            <a href="{{ .Permalink }}">{{ .Lang }}</a>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
   <div class="pt-8 xl:pt-6 lg:pt-4">
     <nav>
       <div class="flex space-x-6 text-2xl">
         <div class="flex-initial"><a href='{{ "work/" | relLangURL }}'>{{ i18n "career" }}</a></div>
+        {{- if eq (string $.Site.Language) "ru" -}}
         <div class="flex-initial"><a href='{{ "blog/" | relLangURL }}'>{{ i18n "blog" }}</a></div>
+        {{ end }}
         <div class="flex-initial"><a href='{{ .Site.Params.instagramURL }}'>{{ i18n "photos" }}</a></div>
       </div>
     </nav>

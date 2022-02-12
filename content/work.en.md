@@ -35,7 +35,7 @@ I speak and write in Russian (Native), English (C1), and German (B1).
 
 ### For recruiters
 
-- [Career track and experience](/en/work/career/)
+<!-- - [Career track and experience](/en/work/career/) -->
 - [Technologies and buzzwords](/en/work/buzzwords/)
 
 ### How to reach me out
