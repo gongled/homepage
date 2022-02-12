@@ -5,8 +5,8 @@ date: 2020-09-22T10:37:58+05:30
 lastmod: 
 author: Gleb Goncharov
 aliases:
-  - /work/career/
-  - /work/career.html
+  - /ru/work/career/
+  - /ru/work/career.html
 
 description: 
 categories: []

@@ -25,7 +25,6 @@
   {{- if .Params.favicon }}
   <link rel="icon" href="{{ .Site.Params.favicon }}">
   {{- end }}
-  <!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css"> -->
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="alternate" type="application/rss+xml" href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" title="{{ .Site.Title }}">
 </head>

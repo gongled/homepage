@@ -6,7 +6,7 @@
   </article>
 </section>
 <section class="pt-8">
-  {{ $career := index $.Site.Data.career.career }}
+  {{ $career := ( index $.Site.Data.translations $.Site.Params.locale ).career }}
   <ol class="p-4">
     {{ range $career }}
     <li class="feed-item relative pb-5 pl-6 border-l-2 border-gray-300 last:border-transparent" key="event-1">

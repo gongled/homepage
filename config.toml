@@ -1,9 +1,34 @@
 baseURL = "https://gon.gl/"
 languageCode = "ru-ru"
+defaultContentLanguage = "ru"
 title = "Сайт Глеба Гончарова"
 theme = "simple"
 avatar = "userpic.jpg"
 staticDir = ["static"]
+
+[languages]
+  [languages.ru]
+    title = "Глеб Гончаров"
+    weight = 1
+    [languages.ru.params]
+      author = "Глеб Гончаров"
+      description = "Системный администратор в ФанБоксе. Автоматизирую и сопровождаю инфраструктуру для проектов мобильных операторов."
+      email = "inbox@gon.gl"
+      videoURL = "https://static.gon.gl/video/"
+      instagramURL = "https://instagram.com/gongled"
+      nickname = "gongled"
+      locale = "ru-RU"
+  [languages.en]
+    title = "Gleb Goncharov"
+    weight = 2
+    [languages.en.params]
+      author = "Gleb Goncharov"
+      description = "Operations engineer in FunBox. I automate and maintain infrastructure for mobile phone operators."
+      email = "inbox@gon.gl"
+      videoURL = "https://static.gon.gl/video/"
+      instagramURL = "https://instagram.com/gongled"
+      nickname = "gongled"
+      locale = "en-US"
 
 [build]
   writeStats = true
@@ -11,13 +36,6 @@ staticDir = ["static"]
 [permalinks]
   blog = "/blog/:filename/"
   work = "/work/:filename/"
-
-[params]
-  author = "Глеб Гончаров"
-  description = "Системный администратор в ФанБоксе. Автоматизирую и сопровождаю инфраструктуру для проектов мобильных операторов."
-  email = "inbox@gon.gl"
-  videoURL = "https://static.gon.gl/video/"
-  nickname = "gongled"
 
 [markup]
   [markup.highlight]

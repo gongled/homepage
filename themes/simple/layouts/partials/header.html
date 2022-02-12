@@ -5,24 +5,26 @@
   <h1 class="text-4xl font-sans font-bold"><a class="text-black hover:text-black hover:underline" href="{{ .Site.BaseURL }}">{{ .Site.Params.Author }}</a></h1>
   {{ end }}
   <div class="pt-8 xl:pt-6 lg:pt-4">
+    <nav>
+      <div class="flex space-x-6 text-2xl">
+        <div class="flex-initial"><a href='{{ "work/" | relLangURL }}'>{{ i18n "career" }}</a></div>
+        <div class="flex-initial"><a href='{{ "blog/" | relLangURL }}'>{{ i18n "blog" }}</a></div>
+        <div class="flex-initial"><a href='{{ .Site.Params.instagramURL }}'>{{ i18n "photos" }}</a></div>
+      </div>
+    </nav>
+  </div>
+  <div class="pt-8 xl:pt-6 lg:pt-4">
     {{ if .IsHome }}
     <p class="pt-0 text-left text-2xl font-sans antialiased leading-9 tracking-normal">
-      Системный администратор в <a href="https://funbox.ru/" target="_blank" rel="noopener">ФанБоксе</a>.
-      Проектирую, создаю и сопровождаю инфраструктуру проектов для мобильных операторов.
+      {{ i18n "my_role" }} <a href='{{ i18n "company_url" }}' target="_blank" rel="noopener">{{ i18n "company_name" }}</a>.
+      {{ i18n "what_i_do" }}.
     </p>
     <p class="pt-9">
       <img class="inline-block h-48 w-48 rounded-full ring-2 ring-white" src="/img/userpic.jpg" alt="">
     </p>
     <p class="pt-9 text-left text-2xl font-sans antialiased leading-9 tracking-normal">
-      <a href="/work/">Работаю</a>, чтобы снижать издержки ИТ-компаний на эксплуатацию систем. В свободное время <a href="/blog/">веду блог</a>, готовлю на кухне, плаваю в бассейне, учу иностранные языки и <a href="https://instagram.com/{{ .Site.Params.nickname }}">путешествую</a>.
+      {{ i18n "my_mission" }}. {{ i18n "my_hobbies" }}.
     </p>
-    {{ else }}
-    <nav>
-      <div class="flex space-x-6 text-2xl">
-        <div class="flex-initial"><a href="/work/">Работа</a></div>
-        <div class="flex-initial"><a href="/blog/">Блог</a></div>
-      </div>
-    </nav>
     {{ end }}
   </div>
 </header>

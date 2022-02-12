@@ -1,0 +1,35 @@
+- id: my_role
+  translation:
+    other: DevOps engineer
+
+- id: company_name
+  translation:
+    other: in SberMarket
+
+- id: company_url
+  translation:
+    other: https://sbermarket.ru
+
+- id: career
+  translation:
+    other: Work
+
+- id: blog
+  translation:
+    other: Blog
+
+- id: photos
+  translation:
+    other: Photos
+
+- id: what_i_do
+  translation:
+    other: I automate and maintain infrastructure for food and goods delivery service
+
+- id: my_mission
+  translation:
+    other: I do work to mitigate overhead expenses of IT companies on maintaining systems
+
+- id: my_hobbies
+  translation:
+    other: I write blog posts, cook, swim, take pictures, and crunch foreign languages in my spare time

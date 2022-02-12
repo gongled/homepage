@@ -1,0 +1,35 @@
+- id: my_role
+  translation:
+    other: DevOps-инженер
+
+- id: company_name
+  translation:
+    other: в СберМаркете
+
+- id: company_url
+  translation:
+    other: https://sbermarket.ru
+
+- id: career
+  translation:
+    other: Работа
+
+- id: blog
+  translation:
+    other: Блог
+
+- id: photos
+  translation:
+    other: Фото
+
+- id: what_i_do
+  translation:
+    other: Проектирую, создаю и сопровождаю инфраструктуру сервиса по доставке продуктов в РФ
+
+- id: my_mission
+  translation:
+    other: Работаю, чтобы снижать издержки ИТ-компаний на эксплуатацию систем
+
+- id: my_hobbies
+  translation:
+    other: В свободное время веду блог, готовлю на кухне, плаваю в бассейне, учу иностранные языки и фотографирую

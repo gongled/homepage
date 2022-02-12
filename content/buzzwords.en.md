@@ -1,12 +1,12 @@
 ---
-title: Инструменты и технологии
+title: Tools and technologies
 layout: buzzwords
 date: 2020-09-22T10:37:58+05:30
 lastmod: 
 author: Gleb Goncharov
 aliases:
-  - /ru/work/buzzwords/
-  - /ru/work/buzzwords.html
+  - /en/work/buzzwords/
+  - /en/work/buzzwords.html
 
 description: 
 categories: []

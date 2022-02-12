@@ -5,8 +5,8 @@ date: 2020-09-22T10:37:58+05:30
 lastmod: 
 author: Gleb Goncharov
 aliases:
-  - /work/
-  - /work/index.html
+  - /ru/work/
+  - /ru/work/index.html
 
 description: 
 categories: []
@@ -37,8 +37,8 @@ draft: false
 
 ### Рекрутерам
 
-- [Где работал и какие решал задачи](/work/career/)
-- [Какие использую инструменты и технологии](/work/buzzwords/)
+- [Где работал и какие решал задачи](/ru/work/career/)
+- [Какие использую инструменты и технологии](/ru/work/buzzwords/)
 
 ### Как со мной связаться
 
