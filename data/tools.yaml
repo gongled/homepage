@@ -32,6 +32,7 @@
 # Инструменты разработки
   - Git
   - Jenkins
+  - GitLab
   - Packer
   - Vagrant
   - Docker Compose
