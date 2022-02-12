@@ -11,6 +11,7 @@
   - Redis
   - InfluxDB
   - ElasticSearch
+  - Loki
   - Kafka
   - Zookeeper
 # Почтовые серверы
@@ -52,12 +53,14 @@
   - Filebeat
   - Flume
   - Logstash
+  - Vector
   - Collectd
 # Системы визуализации и мониторинга
   - Kibana
   - Grafana
   - Zabbix
   - Prometheus
+  - VictoriaMetrics
 # Языки программирования
   - PHP
   - Python
