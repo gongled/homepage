@@ -12,7 +12,7 @@ staticDir = ["static"]
     weight = 1
     [languages.ru.params]
       author = "Глеб Гончаров"
-      description = "Системный администратор в ФанБоксе. Автоматизирую и сопровождаю инфраструктуру для проектов мобильных операторов."
+      description = "Системный администратор в СберМаркете."
       email = "inbox@gongled.ru"
       videoURL = "https://static.gongled.ru/video/"
       nickname = "gongled"
@@ -22,7 +22,7 @@ staticDir = ["static"]
     weight = 2
     [languages.en.params]
       author = "Gleb Goncharov"
-      description = "Operations engineer in FunBox. I automate and maintain infrastructure for mobile phone operators."
+      description = "Operations engineer in SberMarket."
       email = "inbox@gongled.ru"
       videoURL = "https://static.gongled.ru/video/"
       nickname = "gongled"
