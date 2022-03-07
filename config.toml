@@ -15,7 +15,6 @@ staticDir = ["static"]
       description = "Системный администратор в ФанБоксе. Автоматизирую и сопровождаю инфраструктуру для проектов мобильных операторов."
       email = "inbox@gongled.ru"
       videoURL = "https://static.gongled.ru/video/"
-      instagramURL = "https://instagram.com/gongled"
       nickname = "gongled"
       locale = "ru-RU"
   [languages.en]
@@ -26,7 +25,6 @@ staticDir = ["static"]
       description = "Operations engineer in FunBox. I automate and maintain infrastructure for mobile phone operators."
       email = "inbox@gongled.ru"
       videoURL = "https://static.gongled.ru/video/"
-      instagramURL = "https://instagram.com/gongled"
       nickname = "gongled"
       locale = "en-US"
 
