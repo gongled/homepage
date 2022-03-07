@@ -40,4 +40,4 @@ I speak and write in Russian (Native), English (C1), and German (B1).
 
 ### How to reach me out
 
-Feel free to contact me on [Telegram](https://t.me/gongled) or [e-mail](mailto:inbox@gon.gl) for collaboration.
+Feel free to contact me on [Telegram](https://t.me/gongled) or [e-mail](mailto:inbox@gongled.ru) for collaboration.

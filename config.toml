@@ -1,4 +1,4 @@
-baseURL = "https://gon.gl/"
+baseURL = "https://gongled.ru/"
 languageCode = "ru-ru"
 defaultContentLanguage = "ru"
 title = "Сайт Глеба Гончарова"
@@ -13,8 +13,8 @@ staticDir = ["static"]
     [languages.ru.params]
       author = "Глеб Гончаров"
       description = "Системный администратор в ФанБоксе. Автоматизирую и сопровождаю инфраструктуру для проектов мобильных операторов."
-      email = "inbox@gon.gl"
-      videoURL = "https://static.gon.gl/video/"
+      email = "inbox@gongled.ru"
+      videoURL = "https://static.gongled.ru/video/"
       instagramURL = "https://instagram.com/gongled"
       nickname = "gongled"
       locale = "ru-RU"
@@ -24,8 +24,8 @@ staticDir = ["static"]
     [languages.en.params]
       author = "Gleb Goncharov"
       description = "Operations engineer in FunBox. I automate and maintain infrastructure for mobile phone operators."
-      email = "inbox@gon.gl"
-      videoURL = "https://static.gon.gl/video/"
+      email = "inbox@gongled.ru"
+      videoURL = "https://static.gongled.ru/video/"
       instagramURL = "https://instagram.com/gongled"
       nickname = "gongled"
       locale = "en-US"

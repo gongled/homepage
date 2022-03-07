@@ -42,4 +42,4 @@ draft: false
 
 ### Как со мной связаться
 
-Пишите в [Telegram](https://t.me/gongled) или [на почту](mailto:inbox@gon.gl) для сотрудничества.
+Пишите в [Telegram](https://t.me/gongled) или [на почту](mailto:inbox@gongled.ru) для сотрудничества.
