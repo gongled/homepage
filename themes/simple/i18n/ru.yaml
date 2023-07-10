@@ -1,6 +1,6 @@
 - id: my_role
   translation:
-    other: DevOps-инженер
+    other: Юнит-лид
 
 - id: company_name
   translation:
@@ -28,8 +28,16 @@
 
 - id: my_mission
   translation:
-    other: Работаю, чтобы снижать издержки ИТ-компаний на эксплуатацию систем
+    other: Работаю, чтобы снижать издержки ИТ-компаний при разработке и эксплуатации систем
 
 - id: my_hobbies
   translation:
-    other: В свободное время веду блог, стучу по барабанам, плаваю в бассейне, учу иностранные языки и фотографирую
+    other: В свободное время стучу по барабанам, выступаю на ИТ-конференциях и организую
+
+- id: arch_katas_game
+  translation:
+    other: архитектурные ката
+
+- id: arch_katas_url
+  translation:
+    other: https://architecturalkatas.ru

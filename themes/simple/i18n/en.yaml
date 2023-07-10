@@ -1,6 +1,6 @@
 - id: my_role
   translation:
-    other: DevOps engineer
+    other: Technical Unit Lead
 
 - id: company_name
   translation:
@@ -28,8 +28,16 @@
 
 - id: my_mission
   translation:
-    other: I do work to mitigate overhead expenses of IT companies on maintaining systems
+    other: I do work to mitigate overhead expenses of IT companies on developing and maintaining systems
 
 - id: my_hobbies
   translation:
-    other: I write blog posts, play on drums, swim, take pictures, and crunch foreign languages in my spare time
+    other: In my spare time I play on drums, speak at IT conferences, and host
+
+- id: arch_katas_game
+  translation:
+    other: Architectural katas
+
+- id: arch_katas_url
+  translation:
+    other: https://architecturalkatas.com
