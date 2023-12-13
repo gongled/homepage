@@ -40,7 +40,7 @@
 
 - id: arch_katas_game
   translation:
-    other: Architectural katas
+    other: "Architectural katas"
 
 - id: arch_katas_url
   translation:
