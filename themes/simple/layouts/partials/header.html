@@ -28,7 +28,8 @@
       <div class="flex space-x-6 text-2xl">
         <div class="flex-initial"><a href='{{ "work/" | relLangURL }}'>{{ i18n "career" }}</a></div>
         {{- if eq (string $.Site.Language) "ru" -}}
-        <div class="flex-initial"><a href='{{ "blog/" | relLangURL }}'>{{ i18n "blog" }}</a></div>
+        <div class="flex-initial"><a href='{{ "articles/" | relLangURL }}'>{{ i18n "articles" }}</a></div>
+        <div class="flex-initial"><a href='{{ "public-speaking/" | relLangURL }}'>{{ i18n "public_speaking" }}</a></div>
         {{ end }}
       </div>
     </nav>

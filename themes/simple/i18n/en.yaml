@@ -14,9 +14,13 @@
   translation:
     other: Work
 
-- id: blog
+- id: articles
   translation:
-    other: Posts
+    other: Articles
+
+- id: public_speaking
+  translation:
+    other: Public speaking
 
 - id: photos
   translation:

@@ -2,10 +2,15 @@
 {{ $Pages := .Pages }}
 <section class="pt-12">
   <div class="grid grid-cols-1 gap-4">
+  {{ .Content }}
   {{ range $Pages.GroupByDate "2006" }}
     <!-- <div class="font-bold text-xl">{{ .Key }}</div> -->
     {{ range .Pages }}
+    {{- if eq (string .Params.Type) "link" -}}
+      <div><a href="{{ .Params.Source }}">{{ .Title }}</a></div>
+    {{ else }}
       <div><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+    {{ end }}
     {{ end }}
   {{ end }}
   </div>

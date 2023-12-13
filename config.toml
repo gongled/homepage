@@ -32,7 +32,8 @@ staticDir = ["static"]
   writeStats = true
 
 [permalinks]
-  blog = "/blog/:filename/"
+  public-speaking = "/public-speaking/:filename/"
+  articles = "/articles/:filename/"
   work = "/work/:filename/"
 
 [markup]

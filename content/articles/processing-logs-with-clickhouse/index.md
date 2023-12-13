@@ -1,6 +1,6 @@
 ---
-title: Как ClickHouse помогает собирать логи Nginx
-description: Как настроить пересылку логов Nginx в ClickHouse 
+title: Собираем логи Nginx в ClickHouse
+description: Как настроить пересылку логов Nginx в ClickHouse
 date: 2020-02-03
 ---
 

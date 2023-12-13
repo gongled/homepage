@@ -14,9 +14,13 @@
   translation:
     other: Работа
 
-- id: blog
+- id: articles
   translation:
-    other: Публикации
+    other: Статьи
+
+- id: public_speaking
+  translation:
+    other: Выступления
 
 - id: photos
   translation:
