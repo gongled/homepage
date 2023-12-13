@@ -16,7 +16,7 @@
 
 - id: blog
   translation:
-    other: Blog
+    other: Posts
 
 - id: photos
   translation:
@@ -24,11 +24,11 @@
 
 - id: what_i_do
   translation:
-    other: I am responsible for reliability of customer area for food and goods delivery service
+    other: I am responsible for reliability and scalability of eCommerce customer platform
 
 - id: my_mission
   translation:
-    other: I do work to mitigate overhead expenses of IT companies on developing and maintaining systems
+    other: I do work to mitigate overhead expenses of IT companies on SDLC and maintaining systems
 
 - id: my_hobbies
   translation:
