@@ -16,11 +16,11 @@
 
 - id: articles
   translation:
-    other: Articles
+    other: Write
 
 - id: public_speaking
   translation:
-    other: Public speaking
+    other: Speak
 
 - id: photos
   translation:
