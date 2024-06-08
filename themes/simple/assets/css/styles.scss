@@ -3,7 +3,7 @@
 @import "node_modules/tailwindcss/utilities";
 
 a {
-    @apply text-blue-600 hover:text-blue-400 no-underline;
+    @apply text-red-500 hover:text-red-400 no-underline;
 }
 
 .feed-item::after {

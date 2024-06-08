@@ -2,6 +2,7 @@
   - Nginx
   - Apache
   - HAProxy
+  - Istio
 # Базы данных и брокеры
   - ClickHouse
   - Mosquitto
@@ -44,12 +45,22 @@
   - XHProf
   - Yandex Tank
   - jMeter
+  - k6
+  - Charles Proxy
+  - Postman
+  - Selenium
+# IdP
+  - KeyCloak
+# Инструменты доставки
+  - Argo Rollouts
+  - Capistrano
 # Системы управления конфигурациями
   - Ansible
   - SaltStack
 # Облачные провайдеры
   - Amazon AWS
   - Digital Ocean
+  - Yandex Cloud
 # Сборщики метрик и логов
   - Filebeat
   - Flume
@@ -60,10 +71,13 @@
   - Kibana
   - Grafana
   - Zabbix
-  - Prometheus
+  - Metabase
+  - Prometheus 
   - VictoriaMetrics
 # Языки программирования
-  - PHP
   - Python
+  - PHP
+  - Ruby
+  - Java
   - Go
   - Shell

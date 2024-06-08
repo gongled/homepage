@@ -3,70 +3,107 @@ career:
     website: https://simtech.ru/
     time: 2013-2015
     description: |
-      Работал офисным сисадмином: заказывал оборудование, устанавливал ОС и конфигурировал ПО, ремонтировал оргтехнику и отвечал на вопросы пользователей.
+      I worked as an office sysadmin, ordering equipment, installing OS and configuring software, repairing office equipment, and answering users' questions.
 
-      Поддерживал и развивал серверный парк для коммерческих веб-проектов, следил за стабильностью их работы.
+      I supported and developed a server park for commercial web projects, ensuring their stability.
 
-      За два года я установил кластер для коммерческих проектов компании и автоматизировал его развёртку. Настроил системный мониторинг в компании, улучшив качество работы сервисов.
+      Over two years, I installed a cluster for the company's commercial projects and automated its deployment. I set up system monitoring at the company, improving the quality of service delivery.
 
-      Запустил IP-телефонию для отдела продаж, а также упростил документооборот для бухгалтерии в офисе. Задокументировал инфраструктуру и запустил первую базу знаний компании.
+      I launched IP telephony for the sales department and simplified document flow for the accounting department in the office. I documented the infrastructure and launched the company's first knowledge base.
   
   - company: Simtech Development
     website: https://simtechdev.com/
     time: 2016-2017
     description: |
-      Основал [проект хостинг-платформы для интернет-магазинов](https://simtechdev.com/services/servers-infrastructure/cloud-hosting/) в составе обособленного подразделения компании-интегратора.
+      I founded a [hosting platform for e-commerce](https://simtechdev.com/services/servers-infrastructure/cloud-hosting/) as part of a separate division within an integration company.
 
-      Управлял небольшой командой эксплуатации, автоматизировал процессы и инфраструктуру, вёл деловую переписку с заказчиками и занимался продвижением услуг. 
-      
-      Организовал работу с отделом продаж, разработки и технической поддержки. Построил финансовую модель, разработал тарифные планы услуги и 
-      разработал стратегии продвижения среди клиентов.
+      I managed a small operations team, automated processes and infrastructure, corresponded with clients, and promoted our services.
 
-      Установил, настроил и автоматизировал ядро услуги, запустил мониторинг и сервис резервного копирования.
+      I organized work with the sales, development, and technical support departments. I built a financial model, designed tariff plans for our service, and developed strategies for promoting it among customers.
+
+      I installed, configured, and automated the core of our service, launched monitoring, and a backup copying service.
 
   - company: FunBox
     website: https://funbox.ru/
     time: 2015-2022
     description: |
-      Администрирую внутреннюю и внешнюю инфраструктуры для коммерческих B2B и B2C проектов. Запустил более 10 проектов:
-      от проектирования архитектуры до передачи в эксплуатацию команде поддержки и, реже, вывода из эксплуатации.
+      I administered internal and external infrastructures for commercial B2B and B2C projects. I launched over 10 projects, from designing the architecture to handing them over to the support team and, occasionally, decommissioning them.
 
-      Организовал техническую площадку для митапов, помогая сотрудникам обмениваться знаниями. Выпускаю [видеоролики на YouTube](https://youtube.com/c/FunBoxTeam)
-      и развиваю DevRel: помогаю компании строить HR-бренд и привлекать соискателей.
+      I organized a technical venue for meetups, helping employees share knowledge. [I publish videos on YouTube](https://youtube.com/c/FunBoxTeam) and developed DevRel: I helped the company build its HR brand and attract job seekers.
 
-      [Разработал мониторинг резервного копирования](https://github.com/funbox/bacula_exporter), ускорив время реакции на проблемы при сохранении данных.
+      I developed a [backup monitoring system](https://github.com/funbox/bacula_exporter), speeding up reaction time to problems when saving data.
 
-      Запустил георезервированный, отказоустойчивый и масштабируемый Kafka-кластер для обслуживания трафика свыше 1Gbps. Настроил мониторинг
-      брокеров Kafka для интеграции в командах разработки.
+      I launched a geo-redundant, fail-safe, and scalable Kafka cluster to handle traffic exceeding 1Gbps. I configured Kafka monitor brokers for integration into development teams.
 
-      Запустил единую систему визуализации метрик, улучшив качество мониторинга и поддержки проектов.
+      I launched a unified Grafana metric visualization system, improving the quality of monitoring and project support.
 
-      Запустил георезервированный и масштабируемый ClickHouse-кластер для мониторинга и решения бизнес-задач коммерческих проектов. 
-      Построил [централизованную систему сбора логов с балансировщиков нагрузки](/articles/nginx-log-processing-with-clickhouse/), ускорив 
-      до 100 раз время поиска событий инженерами техподдержки.
+      I launched a geo-redundant and scalable ClickHouse cluster for monitoring and solving business problems in commercial projects. I built a centralized log collection system from load balancers, accelerating event search times by engineers in support teams by up to 100 times.
 
-      Запустил офисную [систему контроля доступа и видеонаблюдения](/articles/how-to-maintain-pacs/), а также улучшил качество работы с охранным агентством.
-      Благодаря изменениям избавились от инцидентов безопасности.
+      I launched an office access control and surveillance system, as well as improved cooperation with the security agency. These changes eliminated security incidents.
 
-      Запустил хранилище артефактов для релизов приложений, что позволило консолидировать общие зависимости в проектах.
-      Это изменение оказало существенное влияние на развитие разработки, CI и качества тестирования проектов.
+      I launched an artifact storage for application releases, consolidating common dependencies in projects. This change had a significant impact on the development, CI, and quality testing of projects.
 
-      Запустил корпоративный Kubernetes-кластер для проектов компании на Baremetal. Автоматизировал развёртку и конфигурацию ОС и платформы, описав инфраструктуру как код.
-      Настроил первое S3-совместимое объектное хранилище для артефактов GitLab.
+      I launched a corporate Kubernetes cluster for the company's projects on bare metal. I automated deployment and configuration of the operating system and platform, describing infrastructure as code. I configured the first S3-compatible object storage for GitLab artifacts.
 
-      Запустил VictoriaMetrics для сбора метрик приложений компании и кластер сбора и архивации журналов приложений на базе Vector и Loki.
+      I launched VictoriaMetrics for collecting application metrics and a cluster for collecting and archiving applications logs based on Vector and Loki.
 
   - company: SberMarket
     website: https://sbermarket.ru/
     time: 2022-...
     description: |
-      Отвечаю за доступность, надёжность и наблюдаемость продуктивных и тестовых сред клиентской зоны СберМаркет.
-      Сокращаю издержки на ИТ-эксплуатацию и развиваю SRE-практики в компании (IT operations, troubleshooting, CI/CD, observability, 
-      SLO/SLA, DORA, incident & problem management).
+      **About company**. SberMarket is an eCommerce project for delivering products and goods from favorite stores and restaurants,
+      represented by three monolithic applications on Ruby/Rails and several hundred microservices associated with them.
 
-      Руковожу командой из 6 человек и управляю проектами по Agile-методологии (Scrum, Kanban): прорабатываю и согласовываю
-      технические решения (system design), ставлю цели (OKR), нанимаю, делегирую, контролирую (performance review),
-      планирую ресурсы, провожу переговоры с заказчиками, развиваю команду (1-1, ИПР, матрица компетенции, 360),
-      мотивирую участников, решаю конфликты и довожу проекты до конца.
+      The company's organizational structure is hierarchical: the IT department consists of domains, domains consist of units, and
+      units consist of teams with engineers. Teams are primarily cross-functional.
 
-      [Выступаю на технических конференциях](/public-speaking/), [пишу статьи](/articles/) и помогаю DevRel с организацией информационных стендов.
+      I joined the team in 2022 as a Senior DevOps Engineer in the IT operations domain, and since the end of 2022,
+      I have led an SRE subgroup for the Customer domain, responsible for the reliability of the customer's path
+      in the mobile and web application.
+
+      More than 50% of the online store's traffic comes to the "storefront" - the largest monolithic application on Ruby/Rails,
+      which is worked on by over 45 teams.
+
+      Since mid-2023, I have been working in the position of head of the unit responsible for the reliability and performance of
+      the storefront: the order lifecycle, payments, and fiscalization.
+
+      ---
+
+      **SDLC optimization**. I analyzed, optimized, and made the SDLC observable. I reduced the build time by 90%, accelerated
+      deployment time by 15%, and accelerated testing by 50% through parallelizing unit tests and automatically labeling flaky tests. 
+      
+      I increased the release frequency by two times while maintaining a low error rate when releasing new versions.
+
+      I launched the first version of the DORA monitoring for projects, allowing me to maintain a balance between
+      development speed (velocity) and system stability.
+
+      I completed the Code Push project - the technology for delivering updates to iOS and Android. As a result, it was possible to
+      reduce the mobile development cycle time to a couple of hours and bypass sanctions restrictions.
+
+      I containerized and migrated the "storefront" to the PaaS platform without downtime, which allowed us to unify
+      the tools for development and operation.
+
+      **Improving reliability**. I added support for canary releases to the "storefront", which allowed us to reduce
+      the impact on users and shorten recovery time after a failure due to automatic rollback of bad releases.
+
+      I initiated and launched the first version of SLO/SLA in the company, adapted the tool for 100% critical services.
+      I analyzed and developed monitoring of the critical user path for the Grocery and RTE (restaurant) directions,
+      which allowed us to make failures in the system observable and evaluate their impact on business.
+
+      **Preparation for high loads**. I completed the migration of content from the "storefront" to the PIM system,
+      which allowed us to reduce load and increase cluster capacity.
+
+      I organized the work of the load testing team and developed a methodology that allowed us to conduct
+      regression testing of application capacities in the company. We managed to increase the number of tests sixfold,
+      cover 92% of user traffic with tests, and become a driver for increasing capacity in development teams.
+
+      I initiated and led a cross-domain project to prepare SberMarket for the high season with 200 participants: 
+      I developed a strategy for preparing for the high season, including several plans and risk assessments of failures using FMEA analysis;
+      I organized the work of teams and facilitated the promotion of projects. As a result, within six months, I increased system's performance by 2.2 times
+      while maintaining availability at 99.9%.
+
+      **Developing IT brand**. I launched a non-commercial DevRel project called ["Architectural Katas"](https://architecturalkatas.ru/) _(Russian only)_ - games for aspiring architects, 
+      aimed at popularizing the skill of system design within the company and beyond its borders. 
+      In one year, I gathered a [community of 900 people](https://t.me/arch_katas_russia) and held more than ten game sessions.
+
+      I spoke at [10+ IT conferences and meetups in Russian](/public-speaking/). I also [published four articles](/articles/) and became a [nominee for "Технотекст-2023"](https://habr.com/ru/companies/sbermarket/articles/738634/) on Habr.

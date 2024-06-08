@@ -10,10 +10,10 @@ module.exports = {
           css: {
             color: theme('colors.gray.900'),
             a: {
-              color: theme('colors.blue.600'),
+              color: theme('colors.red.400'),
               textDecoration: 'none',
               '&:hover': {
-                color: theme('colors.blue.400'),
+                color: theme('colors.red.300'),
                 textDecoration: 'none',
               },
             },
