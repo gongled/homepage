@@ -3,5 +3,5 @@ title: Эволюция HTTP. Краткая история развития (ч
 description: Эволюция HTTP. Часть 2. Краткая история развития самого популярного протокола Всемирной паутины
 date: 2023-01-16
 type: link
-source: https://habr.com/ru/companies/sbermarket/articles/710780/
+source: https://habr.com/ru/companies/kuper/articles/710780/
 ---

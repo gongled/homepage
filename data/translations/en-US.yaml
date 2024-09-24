@@ -47,11 +47,11 @@ career:
 
       I launched VictoriaMetrics for collecting application metrics and a cluster for collecting and archiving applications logs based on Vector and Loki.
 
-  - company: SberMarket
-    website: https://sbermarket.ru/
+  - company: Kuper
+    website: https://kuper.ru/
     time: 2022-...
     description: |
-      **About company**. SberMarket is an eCommerce project for delivering products and goods from favorite stores and restaurants,
+      **About company**. Kuper (ex SberMarket) is an eCommerce project for delivering products and goods from favorite stores and restaurants,
       represented by three monolithic applications on Ruby/Rails and several hundred microservices associated with them.
 
       The company's organizational structure is hierarchical: the IT department consists of domains, domains consist of units, and
@@ -97,13 +97,13 @@ career:
       regression testing of application capacities in the company. We managed to increase the number of tests sixfold,
       cover 92% of user traffic with tests, and become a driver for increasing capacity in development teams.
 
-      I initiated and led a cross-domain project to prepare SberMarket for the high season with 200 participants: 
+      I initiated and [led a cross-domain project to prepare Kuper for the high season](/public-speaking/kuper-high-season/) with 200 participants: 
       I developed a strategy for preparing for the high season, including several plans and risk assessments of failures using FMEA analysis;
       I organized the work of teams and facilitated the promotion of projects. As a result, within six months, I increased system's performance by 2.2 times
       while maintaining availability at 99.9%.
 
       **Developing IT brand**. I launched a non-commercial DevRel project called ["Architectural Katas"](https://architecturalkatas.ru/) _(Russian only)_ - games for aspiring architects, 
       aimed at popularizing the skill of system design within the company and beyond its borders. 
-      In one year, I gathered a [community of 900 people](https://t.me/arch_katas_russia) and held more than ten game sessions.
+      In one year, I gathered a [community of 1000+ people](https://t.me/arch_katas_russia) and held more than ten game sessions.
 
-      I spoke at [10+ IT conferences and meetups in Russian](/public-speaking/). I also [published four articles](/articles/) and became a [nominee for "Технотекст-2023"](https://habr.com/ru/companies/sbermarket/articles/738634/) on Habr.
+      I spoke at [10+ IT conferences and meetups in Russian](/public-speaking/). I also [published four articles](/articles/) and became a [nominee for "Технотекст-2023"](https://habr.com/ru/companies/kuper/articles/738634/) on Habr.

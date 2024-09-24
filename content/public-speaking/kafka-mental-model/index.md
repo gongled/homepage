@@ -10,4 +10,4 @@ date: 2023-05-31
 
 Вы могли уже слушать это выступление [на открытом онлайн-практикуме платформы Rebrain и агентства Fevlake](https://rebrainme.com/webinars/devops-kafka-mental-model/) в августе 2023-года. Короткая версия (без практики) также есть [в записи с ИТ-конференции «Стачка» в сентябре 2023-го](https://nastachku.ru/mentalnaya-model-kafka) года в Ульяновске.
 
-Текстовая версия выступления доступна [в моей статье на Хабре](https://habr.com/ru/companies/sbermarket/articles/738634/).
+Текстовая версия выступления доступна [в моей статье на Хабре](https://habr.com/ru/companies/kuper/articles/738634/).

@@ -12,7 +12,7 @@ staticDir = ["static"]
     weight = 1
     [languages.ru.params]
       author = "Глеб Гончаров"
-      description = "Юнит лид в СберМаркете."
+      description = "Юнит лид в Купере."
       email = "inbox@gongled.ru"
       videoURL = "https://static.gongled.ru/video/"
       nickname = "gongled"
@@ -22,7 +22,7 @@ staticDir = ["static"]
     weight = 2
     [languages.en.params]
       author = "Gleb Goncharov"
-      description = "Unit Lead in SberMarket."
+      description = "Unit Lead in Kuper."
       email = "inbox@gongled.ru"
       videoURL = "https://static.gongled.ru/video/"
       nickname = "gongled"

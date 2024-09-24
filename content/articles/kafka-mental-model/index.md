@@ -3,5 +3,5 @@ title: Kafka за 20 минут. Ментальная модель и как с 
 description: Ментальная модель Kafka
 date: 2023-05-31
 type: link
-source: https://habr.com/ru/companies/sbermarket/articles/738634/
+source: https://habr.com/ru/companies/kuper/articles/738634/
 ---
