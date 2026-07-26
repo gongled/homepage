@@ -262,16 +262,7 @@
       items:
         - Enterprise Architecture
         - Solution Architecture
-        - System Design
-        - ADR
-        - RFC
-        - Architecture-as-a-Code
-        - Docs-as-a-Code
-        - C4 Model
-        - Technology Radar
-        - CMDB
         - Technical Debt Management
-        - Architecture Board
         - Gap Analysis
     - title:
         ru: "ITSM и эксплуатация"
@@ -281,44 +272,6 @@
         - Problem Management
         - Change Management
         - Capacity Management
-        - SLO
-        - SLI
-        - SLA
-        - Error Budget
-        - DORA Metrics
-        - Post-mortem
-    - title:
-        ru: "Команды, найм и лидерство"
-        en: "Teams, hiring and leadership"
-      items:
-        - OKR
-        - KPI
-        - Topgrading
-        - TMM
-        - ИПР (IDP)
-        - Competency Matrix
-        - 360 Feedback
-        - RACI
-        - DACI
-        - Extreme Ownership
-    - title:
-        ru: "Анализ и приоритизация"
-        en: "Analysis and prioritization"
-      items:
-        - SWOT
-        - FMEA
-        - RICE
-        - Expected Value
-        - SMART
-    - title:
-        ru: "Методологии"
-        en: "Methodologies"
-      items:
-        - Kanban
-        - Upstream/Downstream Kanban
-        - Discovery & Delivery
-        - Scrum
-        - GTD
 - title:
     ru: "Практики"
     en: "Practices"
@@ -338,15 +291,68 @@
         - Prompt Engineering
         - Agentic Workflows
     - title:
+        ru: "Архитектурные практики"
+        en: "Architecture practices"
+      items:
+        - System Design
+        - ADR
+        - RFC
+        - Architecture-as-a-Code
+        - Docs-as-a-Code
+        - C4 Model
+        - Technology Radar
+        - CMDB
+    - title:
         ru: "Инженерные практики"
         en: "Engineering practices"
       items:
         - Infrastructure as Code (IaC)
         - GitOps
         - Everything-as-Code
+        - Immutable Deadlines
+    - title:
+        ru: "SRE-практики"
+        en: "SRE practices"
+      items:
+        - SLO
+        - SLI
+        - SLA
+        - Error Budget
+        - DORA Metrics
+        - Post-mortem
         - Chaos Engineering
         - Canary Releases
         - Feature Flags
         - Load Testing
         - Blameless Culture
-        - Immutable Deadlines
+    - title:
+        ru: "Практики управления командами"
+        en: "Team management practices"
+      items:
+        - OKR
+        - KPI
+        - Topgrading
+        - TMM
+        - ИПР (IDP)
+        - Competency Matrix
+        - 360 Feedback
+        - RACI
+        - DACI
+        - Extreme Ownership
+    - title:
+        ru: "Анализ и приоритизация"
+        en: "Analysis and prioritization"
+      items:
+        - SWOT
+        - FMEA
+        - RICE
+        - SMART
+    - title:
+        ru: "Методологии"
+        en: "Methodologies"
+      items:
+        - Kanban
+        - Upstream/Downstream Kanban
+        - Discovery & Delivery
+        - Scrum
+        - GTD
