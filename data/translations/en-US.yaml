@@ -3,8 +3,8 @@ landing:
   metrics:
     - value: "180+"
       label: "information systems"
-    - value: "60+"
-      label: "business products"
+    - value: "30+"
+      label: "architects"
     - value: "−35%"
       label: "IT TCO in 2025–2026"
     - value: "92%"
