@@ -1,5 +1,5 @@
 baseURL = "https://gongled.ru/"
-languageCode = "ru-ru"
+locale = "ru-ru"
 defaultContentLanguage = "ru"
 title = "Сайт Глеба Гончарова"
 theme = "simple"

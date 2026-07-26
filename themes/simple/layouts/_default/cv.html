@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $t := ( index $.Site.Data.translations $.Site.Params.locale ) }}
+{{ $t := ( index hugo.Data.translations $.Site.Params.locale ) }}
 <section class="pt-8">
   <article class="prose prose-lg">
     {{ .Content }}

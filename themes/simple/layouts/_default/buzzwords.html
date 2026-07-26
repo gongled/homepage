@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="pt-8">
-  {{ $tools := index $.Site.Data.tools }}
+  {{ $tools := index hugo.Data.tools }}
   <article class="prose prose-lg">
   <h3 class="font-semibold text-3xl">{{ .Title }}</h2>
   {{ .Content }}

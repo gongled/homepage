@@ -7,3 +7,5 @@ hugo_stats.json
 hugo.exe
 hugo.linux
 hugo.darwin
+.superpowers/
+.worktrees/

@@ -1,83 +1,5 @@
-career:
-  - company: Simtech Group
-    website: https://simtech.ru/
-    time: 2013-2015
-    description: |
-      I worked as a system administrator: server fleet for commercial web projects, monitoring, IP telephony, the company's first knowledge base.
-  
-  - company: Simtech Development
-    website: https://simtechdev.com/
-    time: 2016-2017
-    description: |
-      I founded and led a [hosting platform for e-commerce](https://simtechdev.com/services/servers-infrastructure/cloud-hosting/): operations team, financial model, pricing plans, automation.
-
-  - company: FunBox
-    website: https://funbox.ru/
-    time: 2015-2022
-    description: |
-      I administered internal and external infrastructures for commercial B2B and B2C projects. I launched over 10 projects, from designing the architecture to handing them over to the support team and, occasionally, decommissioning them.
-
-      I organized a technical venue for meetups, helping employees share knowledge. [I publish videos on YouTube](https://youtube.com/c/FunBoxTeam) and developed DevRel: I helped the company build its HR brand and attract job seekers.
-
-      I developed a [backup monitoring system](https://github.com/funbox/bacula_exporter), speeding up reaction time to problems when saving data.
-
-      I launched a geo-redundant, fail-safe, and scalable Kafka cluster to handle traffic exceeding 1Gbps. I configured Kafka monitor brokers for integration into development teams.
-
-      I launched a unified Grafana metric visualization system, improving the quality of monitoring and project support.
-
-      I launched a geo-redundant and scalable ClickHouse cluster for monitoring and solving business problems in commercial projects. I built a centralized log collection system from load balancers, accelerating event search times by engineers in support teams by up to 100 times.
-
-      I launched an office access control and surveillance system, as well as improved cooperation with the security agency. These changes eliminated security incidents.
-
-      I launched an artifact storage for application releases, consolidating common dependencies in projects. This change had a significant impact on the development, CI, and quality testing of projects.
-
-      I launched a corporate Kubernetes cluster for the company's projects on bare metal. I automated deployment and configuration of the operating system and platform, describing infrastructure as code. I configured the first S3-compatible object storage for GitLab artifacts.
-
-      I launched VictoriaMetrics for collecting application metrics and a cluster for collecting and archiving applications logs based on Vector and Loki.
-
-  - company: Kuper
-    website: https://kuper.ru/
-    time: 2022-...
-    description: |
-      **About company**. Kuper (ex SberMarket) is an eCommerce delivery service: three monolithic Ruby/Rails
-      applications and several hundred microservices.
-
-      **Head of Solution Architecture / CTO functions (Sep 2025 — present)**. I lead a team of 6 solution architects and
-      functionally guide 30+ architects. I own enterprise architecture: 180+ information systems (1,000+ components)
-      and 60+ business products, application and infrastructure layers.
-
-      I designed the new IT landscape in Cloud.ru and inventoried systems in a CMDB. I raised architecture and
-      reliability maturity by two levels and increased standards compliance from 70% to 92%. I standardized ADRs and
-      automated their review with AI (review time down from a week to 24 hours). I created the technical debt
-      management process from scratch, co-authored the three-year IT strategy, and cut IT TCO by 35%.
-
-      **Cloud migration: Yandex.Cloud → Cloud.ru (Mar 2025 — Mar 2026)**. I led the migration program: ~600
-      participants, 180+ information systems and 60+ business products migrated. Delivered on time, without
-      incidents.
-
-      **Unit Lead — platform and product teams (2023–2025)**. I owned reliability and performance of the
-      storefront: order lifecycle, payments, fiscalization. Over half of the store's traffic, 45+ teams.
-
-      I prepared the company for the [peak season](/public-speaking/kuper-high-season/): a 200-participant
-      cross-domain project, 2.2× performance in six months at 99.9% availability. I ran the technical side of the
-      SberMarket → Kuper rebrand overnight. I re-engineered the cart: 10× lower TCO, 4× lower latency (200 ms),
-      capacity from 10 to 100 rps.
-
-      I accelerated the SDLC: 90% faster builds, 50% faster testing, 2× release frequency. I introduced SLO/SLA
-      for 100% of critical services, canary releases, and DORA monitoring. I built load testing as a methodology:
-      6× more tests, 92% traffic coverage. I migrated the storefront to a PaaS without downtime and shipped Code
-      Push for mobile apps. I delivered product launches on time.
-
-      **Senior DevOps Engineer / SRE Lead (2022–2023)**. I joined as a senior DevOps engineer; within six months
-      I led the SRE group for the Customer domain.
-
-      **Employer brand**. I founded [Architectural Katas](https://architecturalkatas.ru/) _(Russian only)_:
-      a [community of 1,000+ people](https://t.me/arch_katas_russia), 10+ sessions. I organized activities for
-      three Ontico conferences (HighLoad++, DevOpsConf). I gave [10+ talks](/public-speaking/) and became
-      a [Tekhnotekst-2023 nominee](https://habr.com/ru/companies/kuper/articles/738634/).
-
 landing:
-  headline: "Head of Solution Architecture: architecture, strategy, teams"
+  headline: "Architecture, strategy, and management"
   metrics:
     - value: "180+"
       label: "information systems"
@@ -136,7 +58,10 @@ cv:
       points:
         - "I launched 10+ infrastructure projects, from architecture design to production handover."
         - "I built geo-redundant Kafka (over 1 Gbps of traffic) and ClickHouse clusters. Centralized log collection made incident search 100× faster."
+        - "I launched a unified Grafana metrics visualization system and a release artifact repository, consolidating shared project dependencies."
         - "I deployed corporate bare-metal Kubernetes with infrastructure as code, and introduced VictoriaMetrics metrics and Vector/Loki log pipelines."
+        - "I deployed an office access control and video surveillance system, eliminating security incidents."
+        - "I built a [backup monitoring exporter](https://github.com/funbox/bacula_exporter), speeding up reaction to backup failures."
         - "I grew DevRel: organized a meetup venue and helped build the employer brand."
     - company: "Simtech Group / Simtech Development"
       role: "System administrator, hosting platform lead"
