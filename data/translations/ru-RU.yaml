@@ -3,8 +3,8 @@ landing:
   metrics:
     - value: "180+"
       label: "информационных систем"
-    - value: "60+"
-      label: "бизнес-продуктов"
+    - value: "30+"
+      label: "архитекторов"
     - value: "−35%"
       label: "TCO на ИТ за 2025–2026"
     - value: "92%"
