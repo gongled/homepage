@@ -61,6 +61,7 @@
   - Amazon AWS
   - Digital Ocean
   - Yandex Cloud
+  - Cloud.ru
 # Сборщики метрик и логов
   - Filebeat
   - Flume
@@ -81,3 +82,15 @@
   - Java
   - Go
   - Shell
+# Архитектура и управление
+  - ADR
+  - C4 Model
+  - Architecture-as-a-Code
+  - Docs-as-a-Code
+  - Технологический радар
+  - CMDB
+# AI-инструменты и практики
+  - MCP
+  - AI-PDLC
+  - LLMOps
+  - LLM-as-a-judge

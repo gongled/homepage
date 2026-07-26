@@ -1,10 +1,10 @@
 - id: my_role
   translation:
-    other: Team Unit Lead
+    other: Lead Solution Architect
 
 - id: company_name
   translation:
-    other: in Kuper
+    other: at Kuper
 
 - id: company_url
   translation:
@@ -28,7 +28,7 @@
 
 - id: what_i_do
   translation:
-    other: I am responsible for reliability and scalability of eCommerce customer platform
+    other: I manage the architecture of 180+ information systems, IT strategy, and a team of solution architects
 
 - id: my_mission
   translation:
@@ -45,3 +45,23 @@
 - id: arch_katas_url
   translation:
     other: https://architecturalkatas.com
+
+- id: nav_cv
+  translation:
+    other: CV
+
+- id: cv_key_numbers
+  translation:
+    other: Key numbers
+
+- id: cv_experience
+  translation:
+    other: Experience
+
+- id: cv_expertise
+  translation:
+    other: Expertise
+
+- id: cv_devrel
+  translation:
+    other: DevRel and community

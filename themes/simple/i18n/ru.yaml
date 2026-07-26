@@ -1,6 +1,6 @@
 - id: my_role
   translation:
-    other: Юнит-лид
+    other: Lead Solution Architect
 
 - id: company_name
   translation:
@@ -28,7 +28,7 @@
 
 - id: what_i_do
   translation:
-    other: Отвечаю за заказ, платежи и фискализацию. Развиваю SRE-практики и нагрузочное тестирование
+    other: Управляю архитектурой 180+ информационных систем, ИТ-стратегией и командой архитекторов
 
 - id: my_mission
   translation:
@@ -45,3 +45,23 @@
 - id: arch_katas_url
   translation:
     other: https://architecturalkatas.ru
+
+- id: nav_cv
+  translation:
+    other: Резюме
+
+- id: cv_key_numbers
+  translation:
+    other: Ключевые цифры
+
+- id: cv_experience
+  translation:
+    other: Опыт работы
+
+- id: cv_expertise
+  translation:
+    other: Экспертиза
+
+- id: cv_devrel
+  translation:
+    other: DevRel и сообщество

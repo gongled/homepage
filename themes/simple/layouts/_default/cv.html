@@ -1,0 +1,46 @@
+{{ define "main" }}
+{{ $t := ( index $.Site.Data.translations $.Site.Params.locale ) }}
+<section class="pt-8">
+  <article class="prose prose-lg">
+    {{ .Content }}
+  </article>
+</section>
+<section class="pt-8">
+  <h3 class="font-semibold text-2xl pb-4">{{ i18n "cv_key_numbers" }}</h3>
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+    {{ range $t.landing.metrics }}
+    <div class="border border-gray-200 rounded p-4 text-center">
+      <div class="text-3xl font-bold">{{ .value }}</div>
+      <div class="text-sm text-gray-500">{{ .label }}</div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+<section class="pt-8">
+  <h3 class="font-semibold text-2xl pb-4">{{ i18n "cv_experience" }}</h3>
+  {{ range $t.cv.roles }}
+  <div class="pb-6">
+    <p class="font-bold">{{ .company }} — {{ .role }}</p>
+    <p class="text-gray-500 text-sm">{{ .time }}</p>
+    <ul class="list-disc pl-6 pt-2 space-y-1 text-lg">
+      {{ range .points }}<li>{{ . | markdownify }}</li>{{ end }}
+    </ul>
+  </div>
+  {{ end }}
+</section>
+<section class="pt-8">
+  <h3 class="font-semibold text-2xl pb-4">{{ i18n "cv_expertise" }}</h3>
+  {{ range $t.cv.expertise }}
+  <div class="pb-4">
+    <p class="font-bold">{{ .title }}</p>
+    <p class="text-lg">{{ .items }}</p>
+  </div>
+  {{ end }}
+</section>
+<section class="pt-8">
+  <h3 class="font-semibold text-2xl pb-4">{{ i18n "cv_devrel" }}</h3>
+  <ul class="list-disc pl-6 space-y-1 text-lg">
+    {{ range $t.cv.devrel }}<li>{{ . | markdownify }}</li>{{ end }}
+  </ul>
+</section>
+{{ end }}

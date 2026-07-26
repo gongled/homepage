@@ -15,7 +15,7 @@
   {{ if hugo.IsProduction }}
   {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
   {{ end }}
-  {{ if .Site.IsServer }}
+  {{ if hugo.IsServer }}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
   {{ else }}
   {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}

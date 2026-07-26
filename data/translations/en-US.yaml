@@ -3,25 +3,13 @@ career:
     website: https://simtech.ru/
     time: 2013-2015
     description: |
-      I worked as an office sysadmin, ordering equipment, installing OS and configuring software, repairing office equipment, and answering users' questions.
-
-      I supported and developed a server park for commercial web projects, ensuring their stability.
-
-      Over two years, I installed a cluster for the company's commercial projects and automated its deployment. I set up system monitoring at the company, improving the quality of service delivery.
-
-      I launched IP telephony for the sales department and simplified document flow for the accounting department in the office. I documented the infrastructure and launched the company's first knowledge base.
+      I worked as a system administrator: server fleet for commercial web projects, monitoring, IP telephony, the company's first knowledge base.
   
   - company: Simtech Development
     website: https://simtechdev.com/
     time: 2016-2017
     description: |
-      I founded a [hosting platform for e-commerce](https://simtechdev.com/services/servers-infrastructure/cloud-hosting/) as part of a separate division within an integration company.
-
-      I managed a small operations team, automated processes and infrastructure, corresponded with clients, and promoted our services.
-
-      I organized work with the sales, development, and technical support departments. I built a financial model, designed tariff plans for our service, and developed strategies for promoting it among customers.
-
-      I installed, configured, and automated the core of our service, launched monitoring, and a backup copying service.
+      I founded and led a [hosting platform for e-commerce](https://simtechdev.com/services/servers-infrastructure/cloud-hosting/): operations team, financial model, pricing plans, automation.
 
   - company: FunBox
     website: https://funbox.ru/
@@ -51,59 +39,120 @@ career:
     website: https://kuper.ru/
     time: 2022-...
     description: |
-      **About company**. Kuper (ex SberMarket) is an eCommerce project for delivering products and goods from favorite stores and restaurants,
-      represented by three monolithic applications on Ruby/Rails and several hundred microservices associated with them.
+      **About company**. Kuper (ex SberMarket) is an eCommerce delivery service: three monolithic Ruby/Rails
+      applications and several hundred microservices.
 
-      The company's organizational structure is hierarchical: the IT department consists of domains, domains consist of units, and
-      units consist of teams with engineers. Teams are primarily cross-functional.
+      **Lead Solution Architect / CTO functions (Sep 2025 — present)**. I lead a team of 6 solution architects and
+      functionally guide 30+ architects. I own enterprise architecture: 180+ information systems (1,000+ components)
+      and 60+ business products, application and infrastructure layers.
 
-      I joined the team in 2022 as a Senior DevOps Engineer in the IT operations domain, and since the end of 2022,
-      I have led an SRE subgroup for the Customer domain, responsible for the reliability of the customer's path
-      in the mobile and web application.
+      I designed the new IT landscape in Cloud.ru and inventoried systems in a CMDB. I raised architecture and
+      reliability maturity by two levels and increased standards compliance from 70% to 92%. I standardized ADRs and
+      automated their review with AI (review time down from a week to 24 hours). I created the technical debt
+      management process from scratch, co-authored the three-year IT strategy, and cut IT TCO by 35%.
 
-      More than 50% of the online store's traffic comes to the "storefront" - the largest monolithic application on Ruby/Rails,
-      which is worked on by over 45 teams.
+      **Cloud migration: Yandex.Cloud → Cloud.ru (Mar 2025 — Mar 2026)**. I led the migration program: ~600
+      participants, 180+ information systems and 60+ business products migrated. Delivered on time, without
+      incidents.
 
-      Since mid-2023, I have been working in the position of head of the unit responsible for the reliability and performance of
-      the storefront: the order lifecycle, payments, and fiscalization.
+      **Unit Lead — platform and product teams (2023–2025)**. I owned reliability and performance of the
+      storefront: order lifecycle, payments, fiscalization. Over half of the store's traffic, 45+ teams.
 
-      ---
+      I prepared the company for the [peak season](/public-speaking/kuper-high-season/): a 200-participant
+      cross-domain project, 2.2× performance in six months at 99.9% availability. I ran the technical side of the
+      SberMarket → Kuper rebrand overnight. I re-engineered the cart: 10× lower TCO, 4× lower latency (200 ms),
+      capacity from 10 to 100 rps.
 
-      **SDLC optimization**. I analyzed, optimized, and made the SDLC observable. I reduced the build time by 90%, accelerated
-      deployment time by 15%, and accelerated testing by 50% through parallelizing unit tests and automatically labeling flaky tests. 
-      
-      I increased the release frequency by two times while maintaining a low error rate when releasing new versions.
+      I accelerated the SDLC: 90% faster builds, 50% faster testing, 2× release frequency. I introduced SLO/SLA
+      for 100% of critical services, canary releases, and DORA monitoring. I built load testing as a methodology:
+      6× more tests, 92% traffic coverage. I migrated the storefront to a PaaS without downtime and shipped Code
+      Push for mobile apps. I delivered product launches on time.
 
-      I launched the first version of the DORA monitoring for projects, allowing me to maintain a balance between
-      development speed (velocity) and system stability.
+      **Senior DevOps Engineer / SRE Lead (2022–2023)**. I joined as a senior DevOps engineer; within six months
+      I led the SRE group for the Customer domain.
 
-      I completed the Code Push project - the technology for delivering updates to iOS and Android. As a result, it was possible to
-      reduce the mobile development cycle time to a couple of hours and bypass sanctions restrictions.
+      **Employer brand**. I founded [Architectural Katas](https://architecturalkatas.ru/) _(Russian only)_:
+      a [community of 1,000+ people](https://t.me/arch_katas_russia), 10+ sessions. I organized activities for
+      three Ontico conferences (HighLoad++, DevOpsConf). I gave [10+ talks](/public-speaking/) and became
+      a [Tekhnotekst-2023 nominee](https://habr.com/ru/companies/kuper/articles/738634/).
 
-      I containerized and migrated the "storefront" to the PaaS platform without downtime, which allowed us to unify
-      the tools for development and operation.
+landing:
+  headline: "Technology Leader: architecture, strategy, teams"
+  metrics:
+    - value: "180+"
+      label: "information systems"
+    - value: "60+"
+      label: "business products"
+    - value: "−35%"
+      label: "IT TCO in 2025–2026"
+    - value: "92%"
+      label: "standards compliance"
 
-      **Improving reliability**. I added support for canary releases to the "storefront", which allowed us to reduce
-      the impact on users and shorten recovery time after a failure due to automatic rollback of bad releases.
-
-      I initiated and launched the first version of SLO/SLA in the company, adapted the tool for 100% critical services.
-      I analyzed and developed monitoring of the critical user path for the Grocery and RTE (restaurant) directions,
-      which allowed us to make failures in the system observable and evaluate their impact on business.
-
-      **Preparation for high loads**. I completed the migration of content from the "storefront" to the PIM system,
-      which allowed us to reduce load and increase cluster capacity.
-
-      I organized the work of the load testing team and developed a methodology that allowed us to conduct
-      regression testing of application capacities in the company. We managed to increase the number of tests sixfold,
-      cover 92% of user traffic with tests, and become a driver for increasing capacity in development teams.
-
-      I initiated and [led a cross-domain project to prepare Kuper for the high season](/public-speaking/kuper-high-season/) with 200 participants: 
-      I developed a strategy for preparing for the high season, including several plans and risk assessments of failures using FMEA analysis;
-      I organized the work of teams and facilitated the promotion of projects. As a result, within six months, I increased system's performance by 2.2 times
-      while maintaining availability at 99.9%.
-
-      **Developing IT brand**. I launched a non-commercial DevRel project called ["Architectural Katas"](https://architecturalkatas.ru/) _(Russian only)_ - games for aspiring architects, 
-      aimed at popularizing the skill of system design within the company and beyond its borders. 
-      In one year, I gathered a [community of 1000+ people](https://t.me/arch_katas_russia) and held more than ten game sessions.
-
-      I spoke at [10+ IT conferences and meetups in Russian](/public-speaking/). I also [published four articles](/articles/) and became a [nominee for "Технотекст-2023"](https://habr.com/ru/companies/kuper/articles/738634/) on Habr.
+cv:
+  roles:
+    - company: "Kuper"
+      role: "Lead Solution Architect / CTO functions"
+      time: "Sep 2025 — present"
+      points:
+        - "I lead a team of 6 solution architects and functionally guide 30+ architects across product teams."
+        - "I own enterprise architecture: 180+ information systems, 1,000+ components, 60+ business products — both application and infrastructure layers."
+        - "I designed the company's new IT landscape in Cloud.ru: business, application, and technology architecture. I inventoried the systems in a CMDB."
+        - "I raised architecture and reliability maturity by two levels and increased corporate standards compliance from 70% to 92%."
+        - "I standardized ADRs and automated their creation and review with AI: review time dropped from a week to 24 hours."
+        - "I built the architecture committee and community, and updated the technology radar."
+        - "I created the technical debt and deviation management process from scratch."
+        - "I co-authored the three-year IT strategy with the CTO and cut IT TCO by 35% in 2025–2026."
+        - "I rebuilt intangible-asset capitalization: automated time tracking without hurting development lead time."
+        - "I am merging architecture processes (EA, ADR/RFC, technical debt) with general IT management: methodology, stakeholders, project portfolio."
+        - "I negotiate with customers, lawyers, and finance teams: gap analyses, roadmaps, and coordination of engineering teams."
+    - company: "Kuper"
+      role: "Cloud migration program lead: Yandex.Cloud → Cloud.ru"
+      time: "Mar 2025 — Mar 2026"
+      points:
+        - "I organized the work of ~600 migration participants."
+        - "I migrated 180+ information systems and 60+ business products."
+        - "I delivered on time: 100% of systems migrated by the end of March 2026, without incidents."
+    - company: "Kuper"
+      role: "Unit Lead — platform and product teams"
+      time: "2023–2025"
+      points:
+        - "I owned reliability and performance of the storefront: order lifecycle, payments, fiscalization — over half of the store's traffic, 45+ teams."
+        - "I prepared the company for the peak season: 2.2× performance in six months at 99.9% availability. A cross-domain project with 200 participants."
+        - "I ran the technical side of the SberMarket → Kuper rebrand: the platform changed its name overnight, without downtime."
+        - "I re-engineered the cart: 10× lower TCO, 4× lower latency down to 200 ms, capacity up from 10 to 100 rps."
+        - "I accelerated the SDLC: 90% faster builds, 50% faster testing, 2× release frequency with the same change-failure rate."
+        - "I introduced SLO/SLA from scratch for 100% of critical services, canary releases with automatic rollback, and DORA monitoring."
+        - "I built load testing as a methodology: 6× more tests covering 92% of user traffic."
+        - "I migrated the storefront to a PaaS without downtime and shipped Code Push for iOS/Android — the mobile release cycle dropped to a couple of hours."
+        - "I delivered product launches on time."
+    - company: "Kuper"
+      role: "Senior DevOps Engineer / SRE Lead, Customer domain"
+      time: "2022–2023"
+      points:
+        - "I joined as a senior DevOps engineer; within six months I led the SRE group for the Customer domain — reliability of the customer journey in the mobile and web apps."
+    - company: "FunBox"
+      role: "Infrastructure Engineer → Team Lead"
+      time: "2015–2022"
+      points:
+        - "I launched 10+ infrastructure projects, from architecture design to production handover."
+        - "I built geo-redundant Kafka (over 1 Gbps of traffic) and ClickHouse clusters. Centralized log collection made incident search 100× faster."
+        - "I deployed corporate bare-metal Kubernetes with infrastructure as code, and introduced VictoriaMetrics metrics and Vector/Loki log pipelines."
+        - "I grew DevRel: organized a meetup venue and helped build the employer brand."
+    - company: "Simtech Group / Simtech Development"
+      role: "System administrator, hosting platform lead"
+      time: "2013–2017"
+      points:
+        - "I administered the server fleet for commercial web projects, then founded and led an e-commerce hosting platform."
+  expertise:
+    - title: "Infrastructure & operations (CIO)"
+      items: "IaaS, IaC, Kubernetes, clouds (Cloud.ru, Yandex.Cloud), SLO/SLA, DORA, load testing, capacity management."
+    - title: "Engineering & architecture (CTO)"
+      items: "Enterprise Architecture, ADR, Architecture-as-a-Code, Docs-as-a-Code, technical debt, technology radar, CMDB."
+    - title: "IT management"
+      items: "IT strategy, IT finance (intangible assets), project portfolio, upstream/downstream Kanban (Discovery & Delivery), requirements management, knowledge management, corporate reporting."
+    - title: "AI practices"
+      items: "AI-PDLC, LLMOps, Loop Engineering, Human-in/on/out-of-the-Loop, LLM-as-a-judge, guardrails; harness, skills, plugins, MCP."
+  devrel:
+    - "I founded [Architectural Katas](https://architecturalkatas.ru/) _(Russian only)_ — system design games for aspiring architects: a [community of 1,000+ people](https://t.me/arch_katas_russia), 10+ sessions."
+    - "I organized activities for three Ontico conferences (HighLoad++, DevOpsConf): from idea to delivery."
+    - "I gave [10+ talks at conferences and meetups in Russian](/public-speaking/), [published articles](/articles/), and became a [Tekhnotekst-2023 nominee](https://habr.com/ru/companies/kuper/articles/738634/)."

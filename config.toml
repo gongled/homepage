@@ -12,7 +12,7 @@ staticDir = ["static"]
     weight = 1
     [languages.ru.params]
       author = "Глеб Гончаров"
-      description = "Юнит лид в Купере."
+      description = "Lead Solution Architect: архитектура, ИТ-стратегия, команды."
       email = "inbox@gongled.ru"
       videoURL = "https://static.gongled.ru/video/"
       nickname = "gongled"
@@ -22,7 +22,7 @@ staticDir = ["static"]
     weight = 2
     [languages.en.params]
       author = "Gleb Goncharov"
-      description = "Unit Lead in Kuper."
+      description = "Lead Solution Architect: architecture, IT strategy, teams."
       email = "inbox@gongled.ru"
       videoURL = "https://static.gongled.ru/video/"
       nickname = "gongled"
@@ -32,9 +32,13 @@ staticDir = ["static"]
   writeStats = true
 
 [permalinks]
-  public-speaking = "/public-speaking/:filename/"
-  articles = "/articles/:filename/"
-  work = "/work/:filename/"
+  public-speaking = "/public-speaking/:contentbasename/"
+  articles = "/articles/:contentbasename/"
+
+[security]
+  [security.node]
+    [security.node.permissions]
+      allowread = ['.', '/']
 
 [markup]
   [markup.highlight]
