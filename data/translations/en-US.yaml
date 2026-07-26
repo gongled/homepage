@@ -11,7 +11,10 @@ landing:
       label: "architecture standards compliance"
 
 cv:
-  profile: "Head of Solution Architecture with 13+ years in IT. I run enterprise architecture and IT strategy at an eCommerce company: 180+ information systems, 60+ products, 30+ architects. I combine architectural leadership with IT management — from strategy and TCO to reliability and the project portfolio. I embed AI agents into engineering processes."
+  profile: "Head of Solution Architecture with 13+ years in IT. I run enterprise architecture and IT strategy at an eCommerce company: 180+ information systems, 60+ products, 30+ architects. I combine architectural leadership with IT management — from strategy and TCO to reliability and the project portfolio. I embed AI agents into engineering processes. I write and speak Russian, English (C1), and German (B2)."
+  contacts:
+    - "[Telegram](https://t.me/gongled)"
+    - "[inbox@gongled.ru](mailto:inbox@gongled.ru)"
   achievements:
     - title: "Architecture & Platforms"
       items:

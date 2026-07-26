@@ -8,6 +8,14 @@
   <p class="text-lg pt-4">{{ . }}</p>
   {{ end }}
 </section>
+{{ with $t.cv.contacts }}
+<section class="pt-8">
+  <h3 class="font-semibold text-2xl pb-4">{{ i18n "cv_contacts" }}</h3>
+  <ul class="list-disc pl-6 space-y-1 text-lg">
+    {{ range . }}<li>{{ . | markdownify }}</li>{{ end }}
+  </ul>
+</section>
+{{ end }}
 {{ with $t.cv.achievements }}
 <section class="pt-8">
   <h3 class="font-semibold text-2xl pb-4">{{ i18n "cv_achievements" }}</h3>

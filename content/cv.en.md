@@ -16,4 +16,3 @@ draft: false
 
 ## Head of Solution Architecture / Technology Leader
 
-I write and speak Russian, English (C1), and German (B2). Contacts: [Telegram](https://t.me/gongled), [inbox@gongled.ru](mailto:inbox@gongled.ru).
