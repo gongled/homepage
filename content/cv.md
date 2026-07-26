@@ -7,13 +7,13 @@ aliases:
   - /ru/cv/
   - /ru/cv/index.html
 
-description: "Глеб Гончаров — Lead Solution Architect: корпоративная архитектура, ИТ-стратегия, миграции, управление командами."
+description: "Глеб Гончаров — Head of Solution Architecture: корпоративная архитектура, ИТ-стратегия, миграции, управление командами."
 categories: []
 tags: []
 
 draft: false
 ---
 
-**Глеб Гончаров — Lead Solution Architect / Technology Leader.**
+**Глеб Гончаров — Head of Solution Architecture / Technology Leader.**
 
 13+ лет в ИТ: от системного администратора до руководителя архитектуры. Пишу и говорю на русском, английском (C1) и немецком (B2) языках. Контакты: [Telegram](https://t.me/gongled), [inbox@gongled.ru](mailto:inbox@gongled.ru).

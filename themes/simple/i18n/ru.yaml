@@ -1,6 +1,6 @@
 - id: my_role
   translation:
-    other: Lead Solution Architect
+    other: Head of Solution Architecture
 
 - id: company_name
   translation:
@@ -28,7 +28,7 @@
 
 - id: what_i_do
   translation:
-    other: Управляю архитектурой 180+ информационных систем, ИТ-стратегией и командой архитекторов
+    other: Управляю архитектурой и ИТ-стратегией в eCommerce
 
 - id: my_mission
   translation:

@@ -42,7 +42,7 @@ career:
       **About company**. Kuper (ex SberMarket) is an eCommerce delivery service: three monolithic Ruby/Rails
       applications and several hundred microservices.
 
-      **Lead Solution Architect / CTO functions (Sep 2025 — present)**. I lead a team of 6 solution architects and
+      **Head of Solution Architecture / CTO functions (Sep 2025 — present)**. I lead a team of 6 solution architects and
       functionally guide 30+ architects. I own enterprise architecture: 180+ information systems (1,000+ components)
       and 60+ business products, application and infrastructure layers.
 
@@ -77,7 +77,7 @@ career:
       a [Tekhnotekst-2023 nominee](https://habr.com/ru/companies/kuper/articles/738634/).
 
 landing:
-  headline: "Technology Leader: architecture, strategy, teams"
+  headline: "Head of Solution Architecture: architecture, strategy, teams"
   metrics:
     - value: "180+"
       label: "information systems"
@@ -86,12 +86,12 @@ landing:
     - value: "−35%"
       label: "IT TCO in 2025–2026"
     - value: "92%"
-      label: "standards compliance"
+      label: "architecture standards compliance"
 
 cv:
   roles:
     - company: "Kuper"
-      role: "Lead Solution Architect / CTO functions"
+      role: "Head of Solution Architecture / CTO functions"
       time: "Sep 2025 — present"
       points:
         - "I lead a team of 6 solution architects and functionally guide 30+ architects across product teams."
