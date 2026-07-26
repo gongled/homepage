@@ -3,13 +3,13 @@
   {{ $groups := index hugo.Data.tools }}
   {{ $lang := $.Site.Language.Lang }}
   <article class="prose prose-lg">
-  <h3 class="font-semibold text-3xl">{{ .Title }}</h2>
+  <h4 class="font-semibold text-3xl">{{ .Title }}</h4>
   {{ .Content }}
   {{ range $groups }}
-  <h4 class="font-semibold text-2xl pt-8">{{ index .title $lang | default .title.ru }}</h4>
+  <h5 class="font-semibold text-2xl pt-8">{{ index .title $lang | default .title.ru }}</h5>
   {{ range .sections }}
-  <p class="font-semibold text-lg pt-4 pb-1">{{ index .title $lang | default .title.ru }}</p>
-  <p class="text-lg leading-relaxed">{{ delimit .items ", " }}.</p>
+  <p class="font-semibold text-lg mt-6 mb-0">{{ index .title $lang | default .title.ru }}</p>
+  <p class="text-lg leading-relaxed mt-0 mb-0">{{ delimit .items ", " }}.</p>
   {{ end }}
   {{ end }}
   </article>
