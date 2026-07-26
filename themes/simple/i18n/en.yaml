@@ -54,6 +54,10 @@
   translation:
     other: Key numbers
 
+- id: cv_achievements
+  translation:
+    other: Selected Achievements
+
 - id: cv_experience
   translation:
     other: Experience
@@ -65,3 +69,7 @@
 - id: cv_devrel
   translation:
     other: DevRel and community
+
+- id: cv_education
+  translation:
+    other: Education & Certifications

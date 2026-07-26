@@ -11,6 +11,13 @@ landing:
       label: "architecture standards compliance"
 
 cv:
+  profile: "Over 13 years in IT: from system administrator to Head of Solution Architecture. I manage enterprise architecture and IT strategy at an eCommerce company with 180+ information systems and 30+ architects. I combine architectural leadership with IT management: strategy, TCO, project portfolio, reliability. I embed AI practices into engineering processes."
+  achievements:
+    - "Led the Yandex.Cloud → Cloud.ru migration: around 600 participants, 180+ information systems, 60+ products — on time, without incidents."
+    - "Cut IT TCO by 35% over 2025–2026."
+    - "Raised compliance with corporate architecture standards from 70% to 92%."
+    - "Reengineered the shopping cart: TCO down 10x, latency down 4x to 200 ms, capacity up from 10 to 100 rps."
+    - "Prepared the company for high season: performance up 2.2x within half a year at 99.9% availability."
   roles:
     - company: "Kuper"
       role: "Head of Solution Architecture / CTO functions"
@@ -69,14 +76,12 @@ cv:
       points:
         - "I administered the server fleet for commercial web projects, then founded and led an e-commerce hosting platform."
   expertise:
-    - title: "Infrastructure & operations (CIO)"
-      items: "IaaS, IaC, Kubernetes, clouds (Cloud.ru, Yandex.Cloud), SLO/SLA, DORA, load testing, capacity management."
-    - title: "Engineering & architecture (CTO)"
-      items: "Enterprise Architecture, ADR, Architecture-as-a-Code, Docs-as-a-Code, technical debt, technology radar, CMDB."
-    - title: "IT management"
-      items: "IT strategy, IT finance (intangible assets), project portfolio, upstream/downstream Kanban (Discovery & Delivery), requirements management, knowledge management, corporate reporting."
-    - title: "AI practices"
-      items: "AI-PDLC, LLMOps, Loop Engineering, Human-in/on/out-of-the-Loop, LLM-as-a-judge, guardrails; harness, skills, plugins, MCP."
+    - title: "Architecture & Platforms"
+      items: "Enterprise Architecture, Solution Architecture, System Design, microservices, event-driven architecture, API-first, C4 Model, ADR, technology radar, CMDB, platform engineering, Kubernetes, clouds (Cloud.ru, Yandex.Cloud), IaaS, IaC."
+    - title: "Technology Leadership & IT Management"
+      items: "IT strategy, IT finance (intangible assets), FinOps, TCO management, project portfolio, upstream/downstream Kanban (Discovery & Delivery), requirements management, knowledge management, corporate reporting, site reliability engineering (SLO/SLA, DORA), load testing, capacity management."
+    - title: "Agent-based Systems & AI Platforms"
+      items: "Embedding LLM agents into engineering processes: automated ADR creation and review (review time cut from a week to 24 hours). AI-PDLC, LLMOps, Loop Engineering, Human-in/on/out-of-the-Loop, LLM-as-a-judge, guardrails, policy enforcement. Tools: MCP, harness, skills, plugins, Claude Code, OpenCode."
   devrel:
     - "I founded [Architectural Katas](https://architecturalkatas.ru/) _(Russian only)_ — system design games for aspiring architects: a [community of 1,000+ people](https://t.me/arch_katas_russia), 10+ sessions."
     - "I organized activities for three Ontico conferences (HighLoad++, DevOpsConf): from idea to delivery."

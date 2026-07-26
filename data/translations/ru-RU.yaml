@@ -11,6 +11,13 @@ landing:
       label: "соответствие стандартам архитектуры"
 
 cv:
+  profile: "Более 13 лет в ИТ: от системного администратора до Head of Solution Architecture. Управляю корпоративной архитектурой и ИТ-стратегией в eCommerce-компании со 180+ информационными системами и 30+ архитекторами. Совмещаю архитектурное лидерство с ИТ-менеджментом: стратегия, TCO, портфель проектов, надёжность. Внедряю AI-практики в инженерные процессы."
+  achievements:
+    - "Организовал миграцию Yandex.Cloud → Cloud.ru: около 600 участников, 180+ информационных систем, 60+ продуктов — в срок, без инцидентов."
+    - "Сократил TCO на ИТ на 35% за 2025–2026 год."
+    - "Поднял соответствие корпоративным стандартам архитектуры с 70% до 92%."
+    - "Провёл реинжиниринг корзины: TCO снизился в 10 раз, latency — в 4 раза до 200 мс, ёмкость выросла с 10 до 100 rps."
+    - "Подготовил компанию к высокому сезону: за полгода увеличил производительность в 2,2 раза при доступности 99,9%."
   roles:
     - company: "Купер"
       role: "Head of Solution Architecture / CTO-функции"
@@ -69,14 +76,12 @@ cv:
       points:
         - "Администрировал серверный парк коммерческих веб-проектов. Основал и руководил хостинг-платформой для интернет-магазинов."
   expertise:
-    - title: "Инфраструктура и эксплуатация (CIO)"
-      items: "IaaS, IaC, Kubernetes, облака (Cloud.ru, Yandex.Cloud), SLO/SLA, DORA, нагрузочное тестирование, управление ёмкостью."
-    - title: "Разработка и архитектура (CTO)"
-      items: "Enterprise Architecture, ADR, Architecture-as-a-Code, Docs-as-a-Code, технический долг, технологический радар, CMDB."
-    - title: "ИТ-управление"
-      items: "ИТ-стратегия, ИТ-финансы (НМА), портфель проектов, Kanban upstream/downstream (Discovery & Delivery), управление требованиями, управление знаниями, корпоративная отчётность."
-    - title: "AI-практики"
-      items: "AI-PDLC, LLMOps, Loop Engineering, Human-in/on/out-the-Loop, LLM-as-a-judge, Guardrails; harness, skills, plugins, MCP."
+    - title: "Архитектура и платформы"
+      items: "Enterprise Architecture, Solution Architecture, System Design, микросервисы, event-driven architecture, API-first, C4 Model, ADR, технологический радар, CMDB, platform engineering, Kubernetes, облака (Cloud.ru, Yandex.Cloud), IaaS, IaC."
+    - title: "Технологическое лидерство и ИТ-управление"
+      items: "ИТ-стратегия, ИТ-финансы (НМА), FinOps, управление TCO, портфель проектов, Kanban upstream/downstream (Discovery & Delivery), управление требованиями, управление знаниями, корпоративная отчётность, site reliability engineering (SLO/SLA, DORA), нагрузочное тестирование, управление ёмкостью."
+    - title: "Агентные системы и AI-платформы"
+      items: "Внедрение LLM-агентов в инженерные процессы: автоматизация создания и ревью ADR (время до ревью — с недели до 24 часов). AI-PDLC, LLMOps, Loop Engineering, Human-in/on/out-the-Loop, LLM-as-a-judge, Guardrails, policy enforcement. Инструменты: MCP, harness, skills, plugins, Claude Code, OpenCode."
   devrel:
     - "Основал [«Архитектурные ката»](https://architecturalkatas.ru/) — игры для начинающих архитекторов: [сообщество 1000+ человек](https://t.me/arch_katas_russia), больше 10 сессий."
     - "Организовал активности для трёх конференций Ontico (HighLoad++, DevOpsConf): от идеи до реализации."

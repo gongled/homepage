@@ -4,7 +4,18 @@
   <article class="prose prose-lg">
     {{ .Content }}
   </article>
+  {{ with $t.cv.profile }}
+  <p class="text-lg pt-4">{{ . }}</p>
+  {{ end }}
 </section>
+{{ with $t.cv.achievements }}
+<section class="pt-8">
+  <h3 class="font-semibold text-2xl pb-4">{{ i18n "cv_achievements" }}</h3>
+  <ul class="list-disc pl-6 space-y-1 text-lg">
+    {{ range . }}<li>{{ . | markdownify }}</li>{{ end }}
+  </ul>
+</section>
+{{ end }}
 <section class="pt-8">
   <h3 class="font-semibold text-2xl pb-4">{{ i18n "cv_key_numbers" }}</h3>
   <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -43,4 +54,12 @@
     {{ range $t.cv.devrel }}<li>{{ . | markdownify }}</li>{{ end }}
   </ul>
 </section>
+{{ with $t.cv.education }}
+<section class="pt-8">
+  <h3 class="font-semibold text-2xl pb-4">{{ i18n "cv_education" }}</h3>
+  <ul class="list-disc pl-6 space-y-1 text-lg">
+    {{ range . }}<li>{{ . | markdownify }}</li>{{ end }}
+  </ul>
+</section>
+{{ end }}
 {{ end }}
