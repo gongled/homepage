@@ -8,8 +8,10 @@
   {{ range $groups }}
   <h5 class="font-semibold text-2xl pt-8">{{ index .title $lang | default .title.ru }}</h5>
   {{ range .sections }}
-  <p class="font-semibold text-lg mt-6 mb-0">{{ index .title $lang | default .title.ru }}</p>
+  <div class="pb-0">
+  <p class="font-semibold text-lg mt-0 mb-0">{{ index .title $lang | default .title.ru }}</p>
   <p class="text-lg leading-relaxed mt-0 mb-0">{{ delimit .items ", " }}.</p>
+  </div>
   {{ end }}
   {{ end }}
   </article>

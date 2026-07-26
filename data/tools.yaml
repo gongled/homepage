@@ -18,8 +18,6 @@
         - Docker Compose
         - Vagrant
         - Packer
-        - S3
-        - MinIO
     - title:
         ru: "Операционные системы"
         en: "Operating systems"
@@ -41,10 +39,9 @@
         - Envoy
         - Cilium
         - Calico
-        - cert-manager
         - Crossplane
         - Kyverno
-        - Keda
+        - KEDA
         - HPA
         - VPA
         - Descheduler
@@ -118,6 +115,8 @@
         - Apache Airflow
         - OpenMetadata
         - Debezium
+        - S3
+        - MinIO
     - title:
         ru: "Брокеры и очереди"
         en: "Brokers and queues"
@@ -222,12 +221,12 @@
         ru: "Языки программирования"
         en: "Programming languages"
       items:
-        - Python
         - Go
+        - Bash
+        - Python
         - Ruby
         - PHP
         - Java
-        - Bash
     - title:
         ru: "AI-инструменты"
         en: "AI tools"
@@ -235,10 +234,6 @@
         - Claude Code
         - OpenCode
         - Model Context Protocol (MCP)
-        - Agent Harness
-        - Skills
-        - Plugins
-        - AI Coding Assistants
 - title:
     ru: "Процессы и управление"
     en: "Processes and management"
@@ -347,6 +342,8 @@
         - FMEA
         - RICE
         - SMART
+        - Impact Mapping
+        - Experience Mapping
     - title:
         ru: "Методологии"
         en: "Methodologies"
