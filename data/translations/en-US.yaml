@@ -17,7 +17,7 @@ cv:
     - title: "Architecture & Platforms"
       items:
         - "Led the Yandex.Cloud → Cloud.ru migration: around 600 participants, 180+ information systems, 60+ products — on time, without incidents. The project was recognized with an honorary certificate signed by German Gref."
-        - "Raised enterprise architecture maturity: compliance with corporate standards grew from 70% to 92%."
+        - "Raised enterprise architecture maturity: compliance with corporate standards grew from 70% to 93%."
         - "Reengineered the shopping cart: TCO down 10x, latency down 4x to 200 ms, capacity up from 10 to 100 rps."
     - title: "Technology Leadership & IT Management"
       items:
@@ -32,13 +32,10 @@ cv:
       role: "Head of Solution Architecture / CTO functions"
       time: "Sep 2025 — present"
       points:
-        - "Goal — raise architecture maturity: standardized ADRs, reorganized the architecture committee and technology radar → corporate standards compliance grew from 70% to 92%."
-        - "Goal — reduce IT costs: co-authored the three-year IT strategy with the CTO and introduced FinOps practices → IT TCO cut by 35% in 2025–2026."
-        - "Goal — speed up architecture decisions: automated ADR creation and review with LLM agents → review time dropped from a week to 24 hours."
         - "I lead a team of 6 solution architects and functionally guide 30+ architects across product teams."
         - "I own enterprise architecture: 180+ information systems, 1,000+ components, 60+ business products — both application and infrastructure layers."
         - "I designed the company's new IT landscape in Cloud.ru: business, application, and technology architecture. I described the landscape in DocHub (ArchTool) and inventoried the systems in a CMDB."
-        - "I raised architecture and reliability maturity by two levels and increased corporate standards compliance from 70% to 92%."
+        - "I raised architecture and reliability maturity by two levels and increased corporate standards compliance from 70% to 93%."
         - "I standardized ADRs and automated their creation and review with LLM agents (LLMOps): review time dropped from a week to 24 hours."
         - "I reorganized the architecture committee and community, and updated the technology radar."
         - "I created the technical debt and deviation management process from scratch."

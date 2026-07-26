@@ -33,7 +33,7 @@ landing:
       label: "архитекторов"
     - value: "−35%"
       label: "TCO на ИТ за 2025–2026"
-    - value: "92%"
+    - value: "93%"
       label: "соответствие стандартам"
 
 cv:
@@ -130,7 +130,7 @@ landing:
       label: "business products"
     - value: "−35%"
       label: "IT TCO in 2025–2026"
-    - value: "92%"
+    - value: "93%"
       label: "standards compliance"
 
 cv:
