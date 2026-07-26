@@ -11,9 +11,14 @@
 {{ with $t.cv.achievements }}
 <section class="pt-8">
   <h3 class="font-semibold text-2xl pb-4">{{ i18n "cv_achievements" }}</h3>
-  <ul class="list-disc pl-6 space-y-1 text-lg">
-    {{ range . }}<li>{{ . | markdownify }}</li>{{ end }}
-  </ul>
+  {{ range . }}
+  <div class="pb-4">
+    <p class="font-bold">{{ .title }}</p>
+    <ul class="list-disc pl-6 space-y-1 text-lg">
+      {{ range .items }}<li>{{ . | markdownify }}</li>{{ end }}
+    </ul>
+  </div>
+  {{ end }}
 </section>
 {{ end }}
 <section class="pt-8">

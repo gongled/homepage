@@ -20,4 +20,4 @@ draft: false
 
 ## Head of Solution Architecture / Technology Leader
 
-13+ лет в ИТ: от системного администратора до руководителя архитектуры. Пишу и говорю на русском, английском (C1) и немецком (B2) языках. Контакты: [Telegram](https://t.me/gongled), [inbox@gongled.ru](mailto:inbox@gongled.ru).
+Пишу и говорю на русском, английском (C1) и немецком (B2) языках. Контакты: [Telegram](https://t.me/gongled), [inbox@gongled.ru](mailto:inbox@gongled.ru).
