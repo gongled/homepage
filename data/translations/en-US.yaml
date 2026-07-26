@@ -13,7 +13,7 @@ landing:
 cv:
   profile: "Over 13 years in IT: from system administrator to Head of Solution Architecture. I manage enterprise architecture and IT strategy at an eCommerce company with 180+ information systems and 30+ architects. I combine architectural leadership with IT management: strategy, TCO, project portfolio, reliability. I embed AI practices into engineering processes."
   achievements:
-    - "Led the Yandex.Cloud → Cloud.ru migration: around 600 participants, 180+ information systems, 60+ products — on time, without incidents."
+    - "Led the Yandex.Cloud → Cloud.ru migration: around 600 participants, 180+ information systems, 60+ products — on time, without incidents. The project was recognized with an honorary certificate signed by German Gref."
     - "Cut IT TCO by 35% over 2025–2026."
     - "Raised compliance with corporate architecture standards from 70% to 92%."
     - "Reengineered the shopping cart: TCO down 10x, latency down 4x to 200 ms, capacity up from 10 to 100 rps."
@@ -41,6 +41,7 @@ cv:
         - "I organized the work of ~600 migration participants."
         - "I migrated 180+ information systems and 60+ business products."
         - "I delivered on time: 100% of systems migrated by the end of March 2026, without incidents."
+        - "Received an honorary certificate signed by German Gref (order No. 76078/K dated 07.11.2025): \"for a highly professional approach to solving complex issues and the fast, successful delivery of assigned tasks\"."
     - company: "Kuper"
       role: "Unit Lead — platform and product teams"
       time: "2023–2025"
