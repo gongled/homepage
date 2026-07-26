@@ -93,7 +93,7 @@ cv:
     - title: "Technology Leadership & IT Management"
       items: "IT strategy, IT finance (intangible assets), FinOps, TCO management, project portfolio, upstream/downstream Kanban (Discovery & Delivery), requirements management, knowledge management, corporate reporting, site reliability engineering (SLO/SLA, DORA), load testing, capacity management."
     - title: "Agent-based Systems & AI Platforms"
-      items: "Embedding LLM agents into engineering processes: automated ADR creation and review (review time cut from a week to 24 hours). In plain terms: agents take over the architects' routine — drafting and checking ADRs — so teams get architecture decisions in hours, not weeks. AI-PDLC, LLMOps, Loop Engineering, Human-in/on/out-of-the-Loop, LLM-as-a-judge, guardrails, policy enforcement. Tools: MCP, harness, skills, plugins, Claude Code, OpenCode."
+      items: "Embedding LLM agents into engineering processes: automated ADR creation and review (review time cut from a week to 24 hours). AI-PDLC, LLMOps, Loop Engineering, Human-in/on/out-of-the-Loop, LLM-as-a-judge, guardrails, policy enforcement. Tools: MCP, harness, skills, plugins, Claude Code, OpenCode."
   devrel:
     - "I founded [Architectural Katas](https://architecturalkatas.ru/) _(Russian only)_ — system design games for aspiring architects: a [community of 1,000+ people](https://t.me/arch_katas_russia), 10+ sessions."
     - "I organized activities for three Ontico conferences (HighLoad++, DevOpsConf): from idea to delivery."

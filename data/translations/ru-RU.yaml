@@ -93,7 +93,7 @@ cv:
     - title: "Технологическое лидерство и ИТ-управление"
       items: "ИТ-стратегия, ИТ-финансы (НМА), FinOps, управление TCO, портфель проектов, Kanban upstream/downstream (Discovery & Delivery), управление требованиями, управление знаниями, корпоративная отчётность, site reliability engineering (SLO/SLA, DORA), нагрузочное тестирование, управление ёмкостью."
     - title: "Агентные системы и AI-платформы"
-      items: "Внедрение LLM-агентов в инженерные процессы: автоматизация создания и ревью ADR (время до ревью — с недели до 24 часов). Проще говоря: агенты снимают с архитекторов рутину — черновики и проверку ADR, — чтобы команды получали архитектурные решения за часы, а не за недели. AI-PDLC, LLMOps, Loop Engineering, Human-in/on/out-the-Loop, LLM-as-a-judge, Guardrails, policy enforcement. Инструменты: MCP, harness, skills, plugins, Claude Code, OpenCode."
+      items: "Внедрение LLM-агентов в инженерные процессы: автоматизация создания и ревью ADR (время до ревью — с недели до 24 часов). AI-PDLC, LLMOps, Loop Engineering, Human-in/on/out-the-Loop, LLM-as-a-judge, Guardrails, policy enforcement. Инструменты: MCP, harness, skills, plugins, Claude Code, OpenCode."
   devrel:
     - "Основал [«Архитектурные ката»](https://architecturalkatas.ru/) — игры для начинающих архитекторов: [сообщество 1000+ человек](https://t.me/arch_katas_russia), больше 10 сессий."
     - "Организовал активности для трёх конференций Ontico (HighLoad++, DevOpsConf): от идеи до реализации."
