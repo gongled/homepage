@@ -58,6 +58,7 @@
   <div class="pb-4">
     <p class="font-bold">{{ .title }}</p>
     <p class="text-lg">{{ .items }}</p>
+    {{ with .impact }}<p class="text-lg pt-1">{{ . }}</p>{{ end }}
   </div>
   {{ end }}
 </section>
