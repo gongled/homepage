@@ -1,14 +1,12 @@
 landing:
   headline: "Architecture, strategy, and management"
   metrics:
+    - value: "13+"
+      label: "years of experience"
     - value: "180+"
-      label: "information systems"
+      label: "information systems in scope"
     - value: "30+"
-      label: "architects"
-    - value: "−35%"
-      label: "IT TCO in 2025–2026"
-    - value: "92%"
-      label: "architecture standards compliance"
+      label: "architects in team"
 
 cv:
   profile: "Head of Solution Architecture with 13+ years in IT. I run enterprise architecture and IT strategy at an eCommerce company. I combine architectural leadership with IT management — from strategy and TCO to reliability and the project portfolio. I embed AI agents into engineering processes. I write and speak Russian, English (C1), and German (B2)."
@@ -95,13 +93,10 @@ cv:
   expertise:
     - title: "Architecture & Platforms"
       items: "Enterprise Architecture, Solution Architecture, System Design, service-oriented architecture (SoA), microservices architecture (MSA), modular monolith architecture, event-driven architecture, API-first, C4 Model, ADR, corporate standards management, technology radar, CMDB, DocHub (ArchTool) — IT landscape description, platform engineering, Kubernetes, clouds (Cloud.ru, Yandex.Cloud), IaaS, IaC."
-      impact: "Result: an IT landscape of 180+ systems documented in DocHub and the CMDB, with 92% compliance with corporate standards."
     - title: "Technology Leadership & IT Management"
       items: "IT strategy, IT finance (intangible assets), FinOps, TCO management, project portfolio, upstream/downstream Kanban (Discovery & Delivery), requirements management, knowledge management, corporate reporting, site reliability engineering (SLO/SLA, DORA), load testing, capacity management."
-      impact: "Result: IT TCO cut by 35% over 2025–2026; intangible-asset capitalization automated without affecting development Lead Time."
     - title: "Agent-based Systems & AI Platforms"
       items: "Embedding LLM agents into engineering processes: automated ADR creation and review (review time cut from a week to 24 hours). In plain terms: agents take over the architects' routine — drafting and checking ADRs — so teams get architecture decisions in hours, not weeks. AI-PDLC, LLMOps, Loop Engineering, Human-in/on/out-of-the-Loop, LLM-as-a-judge, guardrails, policy enforcement. Tools: MCP, harness, skills, plugins, Claude Code, OpenCode."
-      impact: "Result: ADR review takes 24 hours instead of a week — architecture decisions reach teams much faster."
   devrel:
     - "I founded [Architectural Katas](https://architecturalkatas.ru/) _(Russian only)_ — system design games for aspiring architects: a [community of 1,000+ people](https://t.me/arch_katas_russia), 10+ sessions."
     - "I organized activities for three Ontico conferences (HighLoad++, DevOpsConf): from idea to delivery."
