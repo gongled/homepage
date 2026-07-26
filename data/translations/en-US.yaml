@@ -78,7 +78,7 @@ cv:
         - "I administered the server fleet for commercial web projects, then founded and led an e-commerce hosting platform."
   expertise:
     - title: "Architecture & Platforms"
-      items: "Enterprise Architecture, Solution Architecture, System Design, microservices, event-driven architecture, API-first, C4 Model, ADR, technology radar, CMDB, platform engineering, Kubernetes, clouds (Cloud.ru, Yandex.Cloud), IaaS, IaC."
+      items: "Enterprise Architecture, Solution Architecture, System Design, service-oriented architecture (SoA), microservices architecture (MSA), modular monolith architecture, event-driven architecture, API-first, C4 Model, ADR, technology radar, CMDB, platform engineering, Kubernetes, clouds (Cloud.ru, Yandex.Cloud), IaaS, IaC."
     - title: "Technology Leadership & IT Management"
       items: "IT strategy, IT finance (intangible assets), FinOps, TCO management, project portfolio, upstream/downstream Kanban (Discovery & Delivery), requirements management, knowledge management, corporate reporting, site reliability engineering (SLO/SLA, DORA), load testing, capacity management."
     - title: "Agent-based Systems & AI Platforms"

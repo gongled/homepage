@@ -78,7 +78,7 @@ cv:
         - "Администрировал серверный парк коммерческих веб-проектов. Основал и руководил хостинг-платформой для интернет-магазинов."
   expertise:
     - title: "Архитектура и платформы"
-      items: "Enterprise Architecture, Solution Architecture, System Design, микросервисы, event-driven architecture, API-first, C4 Model, ADR, технологический радар, CMDB, platform engineering, Kubernetes, облака (Cloud.ru, Yandex.Cloud), IaaS, IaC."
+      items: "Enterprise Architecture, Solution Architecture, System Design, сервис-ориентированная архитектура (SoA), микросервисная архитектура (MSA), модульная монолитная архитектура, event-driven architecture, API-first, C4 Model, ADR, технологический радар, CMDB, platform engineering, Kubernetes, облака (Cloud.ru, Yandex.Cloud), IaaS, IaC."
     - title: "Технологическое лидерство и ИТ-управление"
       items: "ИТ-стратегия, ИТ-финансы (НМА), FinOps, управление TCO, портфель проектов, Kanban upstream/downstream (Discovery & Delivery), управление требованиями, управление знаниями, корпоративная отчётность, site reliability engineering (SLO/SLA, DORA), нагрузочное тестирование, управление ёмкостью."
     - title: "Агентные системы и AI-платформы"
