@@ -1,14 +1,21 @@
 {{ define "main" }}
 <section class="pt-8">
-  {{ $tools := index hugo.Data.tools }}
+  {{ $groups := index hugo.Data.tools }}
+  {{ $lang := $.Site.Language.Lang }}
   <article class="prose prose-lg">
   <h3 class="font-semibold text-3xl">{{ .Title }}</h2>
   {{ .Content }}
-  <div class="pt-8 grid grid-flow-row grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 gap-2 xl:gap-3 lg:gap-4">
-  {{ range $tools }}
+  {{ range $groups }}
+  <h4 class="font-semibold text-2xl pt-8">{{ index .title $lang | default .title.ru }}</h4>
+  {{ range .sections }}
+  <p class="font-semibold text-lg pt-4 pb-2">{{ index .title $lang | default .title.ru }}</p>
+  <div class="grid grid-flow-row grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 gap-2 xl:gap-3 lg:gap-4">
+    {{ range .items }}
     <div>{{ . }}</div>
-  {{ end }}
+    {{ end }}
   </div>
+  {{ end }}
+  {{ end }}
   </article>
 </section>
 {{ end }}

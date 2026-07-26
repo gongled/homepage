@@ -1,96 +1,349 @@
-# Веб-серверы и балансировщики
-  - Nginx
-  - Apache
-  - HAProxy
-  - Istio
-# Базы данных и брокеры
-  - ClickHouse
-  - Mosquitto
-  - OpenLDAP
-  - MySQL
-  - PostgreSQL
-  - Redis
-  - InfluxDB
-  - ElasticSearch
-  - Loki
-  - Kafka
-  - Zookeeper
-# Почтовые серверы
-  - Postfix
-  - Dovecot
-  - Amavis
-  - OpenDKIM
-# Системы кластеризации
-  - Apache Mesos
-  - Marathon
-# Гипервизоры и оркестраторы контейнеров
-  - Kubernetes
-  - OpenVZ
-  - Qemu/KVM
-  - VirtualBox
-  - VMWare ESXi
-  - Docker
-# Инструменты разработки
-  - Git
-  - Jenkins
-  - GitLab
-  - Packer
-  - Vagrant
-  - Docker Compose
-  - Terraform
-  - RPM
-  - Make
-# Инструменты тестирования и отладки
-  - XDebug
-  - XHProf
-  - Yandex Tank
-  - jMeter
-  - k6
-  - Charles Proxy
-  - Postman
-  - Selenium
-# IdP
-  - KeyCloak
-# Инструменты доставки
-  - Argo Rollouts
-  - Capistrano
-# Системы управления конфигурациями
-  - Ansible
-  - SaltStack
-# Облачные провайдеры
-  - Amazon AWS
-  - Digital Ocean
-  - Yandex Cloud
-  - Cloud.ru
-# Сборщики метрик и логов
-  - Filebeat
-  - Flume
-  - Logstash
-  - Vector
-  - Collectd
-# Системы визуализации и мониторинга
-  - Kibana
-  - Grafana
-  - Zabbix
-  - Metabase
-  - Prometheus 
-  - VictoriaMetrics
-# Языки программирования
-  - Python
-  - PHP
-  - Ruby
-  - Java
-  - Go
-  - Shell
-# Архитектура и управление
-  - ADR
-  - C4 Model
-  - Architecture-as-a-Code
-  - Docs-as-a-Code
-  - Технологический радар
-  - CMDB
-# AI-инструменты и практики
-  - MCP
-  - AI-PDLC
-  - LLMOps
-  - LLM-as-a-judge
+- title:
+    ru: "Инструменты и платформы"
+    en: "Tools and platforms"
+  sections:
+    - title:
+        ru: "Облака и виртуализация"
+        en: "Clouds and virtualization"
+      items:
+        - Cloud.ru
+        - Yandex Cloud
+        - Sber Cloud
+        - Amazon AWS
+        - Digital Ocean
+        - VMware ESXi
+        - VMware Cloud Director (VCD)
+        - Qemu/KVM
+        - OpenVZ
+        - Docker
+        - Docker Compose
+        - Vagrant
+        - Packer
+        - S3
+        - MinIO
+    - title:
+        ru: "Операционные системы"
+        en: "Operating systems"
+      items:
+        - Debian
+        - CentOS
+        - Oracle Linux
+    - title:
+        ru: "Kubernetes и экосистема"
+        en: "Kubernetes and ecosystem"
+      items:
+        - Kubernetes
+        - Helm
+        - ArgoCD
+        - Argo Rollouts
+        - FluxCD
+        - Nginx Ingress
+        - Istio
+        - Envoy
+        - Cilium
+        - Calico
+        - cert-manager
+        - Crossplane
+        - Kyverno
+        - Keda
+        - HPA
+        - VPA
+        - Descheduler
+        - Harbor
+        - Velero
+        - Trivy
+        - LitmusChaos
+        - k9s
+        - Strimzi (Kafka Operator)
+        - ClickHouse Operator (Altinity)
+        - PostgreSQL Operator (Zalando)
+        - Elasticsearch Operator (ECK)
+        - Valkey Operator
+    - title:
+        ru: "CI/CD и доставка"
+        en: "CI/CD and delivery"
+      items:
+        - Git
+        - GitLab
+        - GitLab CI
+        - GitLab Runners
+        - Jenkins
+        - SonarQube
+        - Nexus
+        - Capistrano
+        - Code Push
+        - RPM
+        - Make
+    - title:
+        ru: "Наблюдаемость"
+        en: "Observability"
+      items:
+        - Prometheus
+        - VictoriaMetrics
+        - VictoriaLogs
+        - VictoriaTraces
+        - Grafana
+        - Grafana OnCall
+        - OpenTelemetry
+        - Jaeger
+        - Sentry
+        - Zabbix
+        - Kibana
+        - Metabase
+        - Sloth
+        - Loki
+        - Vector
+        - Fluentbit
+        - Filebeat
+        - Flume
+        - Logstash
+        - Collectd
+        - InfluxDB
+        - ElasticSearch
+        - Prometheus Exporters
+    - title:
+        ru: "Базы данных и аналитика"
+        en: "Databases and analytics"
+      items:
+        - PostgreSQL
+        - Patroni
+        - MySQL
+        - ClickHouse
+        - Greenplum
+        - MongoDB
+        - Redis
+        - KeyDB
+        - Dragonfly
+        - Valkey
+        - Memcached
+        - OpenSearch
+        - Apache Airflow
+        - OpenMetadata
+        - Debezium
+    - title:
+        ru: "Брокеры и очереди"
+        en: "Brokers and queues"
+      items:
+        - Apache Kafka
+        - Apache Zookeeper
+        - KsqlDB
+        - MirrorMaker 2
+        - Mosquitto
+        - Temporal
+    - title:
+        ru: "API и интеграции"
+        en: "API and integrations"
+      items:
+        - REST
+        - OpenAPI 3.0
+        - gRPC
+        - Protobuf
+        - GraphQL
+        - Apicurio (Schema Registry)
+        - Istio API Gateway
+        - oauth2-proxy
+    - title:
+        ru: "Сеть и edge"
+        en: "Network and edge"
+      items:
+        - Nginx
+        - Apache httpd
+        - HAProxy
+        - Consul
+        - Squid
+        - Unbound DNS
+        - NTP
+        - CDN (Ngenix)
+        - DDoS Protection (ServicePipe)
+    - title:
+        ru: "Почта"
+        en: "Mail"
+      items:
+        - Postfix
+        - Dovecot
+        - Amavis
+        - OpenDKIM
+        - Exchange
+    - title:
+        ru: "Доступ и безопасность"
+        en: "Identity and security"
+      items:
+        - KeyCloak
+        - LDAP
+        - OpenLDAP
+        - Vault
+        - OpenBao
+        - PKI
+        - OAuth2
+        - MFA (Multifactor)
+        - Teleport
+        - Passwork
+        - СКУД (PACS)
+    - title:
+        ru: "Резервное копирование"
+        en: "Backup"
+      items:
+        - Bacula
+        - Veeam
+        - Velero
+    - title:
+        ru: "Совместная работа"
+        en: "Collaboration"
+      items:
+        - Confluence
+        - Jira
+        - Mattermost
+        - Nextcloud
+        - Jitsi
+        - SberJazz
+        - PlantUML
+        - Netbox
+    - title:
+        ru: "Управление конфигурацией"
+        en: "Configuration management"
+      items:
+        - Ansible
+        - AWX
+        - SaltStack
+    - title:
+        ru: "Тестирование и качество"
+        en: "Testing and quality"
+      items:
+        - k6
+        - jMeter
+        - Yandex Tank
+        - Selenium
+        - Postman
+        - Charles Proxy
+        - XDebug
+        - XHProf
+        - TestIT
+        - Allure
+        - Lighthouse
+    - title:
+        ru: "Языки программирования"
+        en: "Programming languages"
+      items:
+        - Python
+        - Go
+        - Ruby
+        - PHP
+        - Java
+        - Bash
+    - title:
+        ru: "AI-инструменты"
+        en: "AI tools"
+      items:
+        - Claude Code
+        - OpenCode
+        - Model Context Protocol (MCP)
+        - Agent Harness
+        - Skills
+        - Plugins
+        - AI Coding Assistants
+- title:
+    ru: "Процессы и управление"
+    en: "Processes and management"
+  sections:
+    - title:
+        ru: "Корпоративная архитектура"
+        en: "Enterprise architecture"
+      items:
+        - Enterprise Architecture
+        - Solution Architecture
+        - System Design
+        - ADR
+        - RFC
+        - Architecture-as-a-Code
+        - Docs-as-a-Code
+        - C4 Model
+        - Technology Radar
+        - CMDB
+        - Technical Debt Management
+        - Architecture Board
+        - Gap Analysis
+    - title:
+        ru: "ИТ-управление"
+        en: "IT governance"
+      items:
+        - IT Strategy
+        - IT Finance
+        - НМА (Intangible Assets)
+        - TCO
+        - Project Portfolio Management
+        - Requirements Management
+        - Knowledge Management
+        - Corporate Reporting
+        - Stakeholder Management
+    - title:
+        ru: "SRE и эксплуатация"
+        en: "SRE and operations"
+      items:
+        - SLO
+        - SLI
+        - SLA
+        - Error Budget
+        - DORA Metrics
+        - Four Keys
+        - Capacity Management
+        - Incident Management
+        - Post-mortem
+        - Load Testing
+        - Canary Releases
+        - Feature Flags
+    - title:
+        ru: "Команды и найм"
+        en: "Teams and hiring"
+      items:
+        - OKR
+        - KPI
+        - Topgrading
+        - TMM
+        - ИПР (IDP)
+        - Competency Matrix
+        - 360 Feedback
+        - RACI
+        - DACI
+        - SWOT
+        - FMEA
+        - RICE
+        - Expected Value
+        - SMART
+    - title:
+        ru: "Методологии"
+        en: "Methodologies"
+      items:
+        - Kanban
+        - Upstream/Downstream Kanban
+        - Discovery & Delivery
+        - Scrum
+        - GTD
+        - Extreme Ownership
+- title:
+    ru: "Практики"
+    en: "Practices"
+  sections:
+    - title:
+        ru: "AI-практики"
+        en: "AI practices"
+      items:
+        - AI-PDLC
+        - LLMOps
+        - Loop Engineering
+        - Human-in-the-Loop (HITL)
+        - Human-on-the-Loop (HOTL)
+        - Human-out-of-the-Loop (HOOTL)
+        - LLM-as-a-judge
+        - Guardrails
+        - Prompt Engineering
+        - Agentic Workflows
+    - title:
+        ru: "Инженерные практики"
+        en: "Engineering practices"
+      items:
+        - Infrastructure as Code (IaC)
+        - IaaS
+        - GitOps
+        - Everything-as-Code
+        - Blameless Culture
+        - Immutable Deadlines
